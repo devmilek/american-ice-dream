@@ -1,0 +1,186 @@
+{
+  "locationId": "bielsko-auchan",
+  "phone": "+48 32 000 00 00",
+  "email": "katowice@americanicedream.pl",
+  "canonicalPath": "/lokalizacje/katowice",
+  "hero": {
+    "image": {
+      "src": "/zdjecie.png",
+      "alt": "Kubki lodów włoskich American Ice Dream dostępne w Katowicach — smak waniliowy, czekoladowy i truskawkowy",
+      "placeholder": true
+    },
+    "badge": "Auchan · od 2006"
+  },
+  "neighborhood": "Dzielnica Zawodzie / Szopienice, strefa foodcourt hipermarketu Auchan",
+  "transport": {
+    "car": "1 min zjazdu z DTŚ (Drogowa Trasa Średnicowa) i DK86. Wygodny dojazd z Sosnowca, Mysłowic, Tychów i centrum Katowic — maksymalnie 10 minut od Rynku.",
+    "public": "Autobusy ZTM: linie 20, 30, 620 oraz 674 — przystanek „Katowice Auchan” (przy wejściu do galerii).",
+    "parking": "Ponad 1 800 bezpłatnych miejsc parkingowych, w tym strefa „Rodzina”, miejsca dla osób z niepełnosprawnościami i stanowiska do ładowania aut elektrycznych.",
+    "accessibility": "Całość lokalu znajduje się na jednym poziomie. Szerokie wejście dla wózków dziecięcych i użytkowników wózków inwalidzkich. Toalety dostępne w strefie foodcourt."
+  },
+  "description": {
+    "lead": "Lodziarnia w Katowicach z 18-letnią historią — jeden z pierwszych punktów American Ice Dream i do dziś ulubione miejsce mieszkańców Katowic, Sosnowca i Mysłowic na słodką przerwę.",
+    "body": [
+      "Nasza strefa w Auchan Katowice to stały adres wakacyjnych rytuałów rodzinnych — od sobotnich zakupów z dziećmi, przez szkolne spotkania po lekcjach, aż po niedzielne randki przy kawie mrożonej. Nasz punkt znajdziesz zaraz za wejściem głównym hipermarketu, po prawej stronie — kolorowe rożki i złoty szyld widać od strefy kas.",
+      "Robimy wszystko codziennie, od podstaw, na miejscu. Lody włoskie dojrzewają w klasycznej maszynie Carpigiani według receptury, której nie zmienialiśmy od 2006 roku. Świderki sypiemy na wafelki tuż przed Twoimi oczami, a desery komponujemy na życzenie — z sezonowymi owocami od śląskich dostawców i dodatkami, które same w sobie są atrakcją dla najmłodszych.",
+      "Jeśli szukasz lodziarni w Katowicach z bezglutenowymi wafelkami, opcją bez laktozy lub rzemieślniczymi granitami na upalne dni — trafiłeś dobrze. Zapraszamy codziennie z wyjątkiem świąt, także w niedziele handlowe."
+    ]
+  },
+  "offer": {
+    "intro": "W punkcie Katowice Auchan znajdziesz pełną kartę American Ice Dream — z kilkoma smakowymi wyjątkami, które przygotowujemy tylko tutaj.",
+    "highlights": [
+      {
+        "productId": "lody-wloskie",
+        "callout": "Flagowe lody włoskie z maszyny Carpigiani — aksamitne, niezmieniona receptura od 2006."
+      },
+      {
+        "productId": "swiderki",
+        "callout": "Świderki w wafelku lub w naszym firmowym kubku — z posypkami i owocami prosto ze Śląska."
+      },
+      {
+        "productId": "desery",
+        "callout": "Desery komponowane na żywo w pucharach — od klasycznych „Bananowych” po autorską „Śląską Zamieć”."
+      },
+      {
+        "productId": "granity",
+        "callout": "Granity owocowe — na lato przygotowujemy arbuzowo-cytrynową, tylko w Katowicach i Mikołowie."
+      },
+      {
+        "productId": "kawa",
+        "callout": "Mrożona kawa karmelowa — idealna w drodze z zakupów lub w strefie foodcourt."
+      }
+    ]
+  },
+  "lodojady": {
+    "intro": "W punkcie Katowice Auchan zbierasz pieczątki w aplikacji Embargo — co 8. porcja jest na nasz koszt. Zeskanuj kod QR, żeby dołączyć do Lodojadów.",
+    "qr": {
+      "url": "https://embargo.app/loyalty/american-ice-dream?loc=katowice",
+      "alt": "Kod QR do programu Lodojady w lokalizacji Katowice Auchan — American Ice Dream"
+    }
+  },
+  "reviews": {
+    "aggregate": {
+      "rating": 4.9,
+      "count": 612
+    },
+    "items": [
+      {
+        "id": "rv-kat-1",
+        "author": "Anna Kłos",
+        "rating": 5,
+        "date": "2026-04-02",
+        "content": "Najlepsze lody włoskie w Katowicach — jeździmy tu z dziećmi w każdy weekend. Świderek czekoladowo-waniliowy jest absolutnym klasykiem, a obsługa zawsze się uśmiecha. Polecam!"
+      },
+      {
+        "id": "rv-kat-2",
+        "author": "Marek Pawlik",
+        "rating": 5,
+        "date": "2026-03-18",
+        "content": "Zaskoczeni jakością — byliśmy przejazdem z Krakowa i po prostu rewelacja. Deser „Śląska Zamieć” to coś, czego nie spotkałem nigdzie indziej. Wracamy przy następnych zakupach w Auchan."
+      },
+      {
+        "id": "rv-kat-3",
+        "author": "Katarzyna Wilk",
+        "rating": 5,
+        "date": "2026-03-09",
+        "content": "Moja córka nie jadła lodów, bo ma nietolerancję laktozy — tutaj znaleźliśmy wersję na mleku roślinnym. Smak pierwsza klasa. Dla rodziców z dziećmi to raj."
+      },
+      {
+        "id": "rv-kat-4",
+        "author": "Piotr Lisek",
+        "rating": 4.5,
+        "date": "2026-02-22",
+        "content": "Kawa mrożona karmelowa świetna, świderki bez zarzutu. Jedyny minus to czasem kolejka w niedzielę handlową — ale schodzi szybko. Ceny rozsądne jak na galerię."
+      },
+      {
+        "id": "rv-kat-5",
+        "author": "Magdalena Stępień",
+        "rating": 5,
+        "date": "2026-02-11",
+        "content": "Jeździmy tu z Sosnowca kilka razy w miesiącu. Rurki z bitą śmietaną są zawsze świeże, a lody mają konsystencję, jakiej nie spotkasz w supermarketowych „włoskich”. Niesamowicie stabilna jakość przez lata."
+      },
+      {
+        "id": "rv-kat-6",
+        "author": "Bartłomiej Olszewski",
+        "rating": 5,
+        "date": "2026-01-30",
+        "content": "Lokalizacja super — wchodzisz do Auchan, skręcasz w prawo i już. Lody świderki pistacjowe to mój osobisty rekord: trzy porcje z rzędu i żadnego żalu."
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "src": "/swiderki-w-kubkach.png",
+      "alt": "Kubki lodów włoskich American Ice Dream dostępne w lodziarni Katowice Auchan",
+      "caption": "Firmowe kubki — waniliowy, czekoladowy, truskawkowy",
+      "placeholder": true
+    },
+    {
+      "src": "/swiderki-w-rozkach.png",
+      "alt": "Świderki czekoladowo-waniliowe i tęczowe w rożkach waflowych w Katowicach",
+      "caption": "Świderki w rożku — klasyk i tęczowy",
+      "placeholder": true
+    },
+    {
+      "src": "/lody-deser.png",
+      "alt": "Puchar deserowy z gałkami lodów, bitą śmietaną i wafelkiem — lodziarnia Katowice",
+      "caption": "Puchar „Śląska Zamieć”",
+      "placeholder": true
+    },
+    {
+      "src": "/rurki-z-bitasmietana.png",
+      "alt": "Chrupiące rurki z bitą śmietaną posypane kakao — American Ice Dream Katowice",
+      "caption": "Rurki z bitą śmietaną na żywo",
+      "placeholder": true
+    },
+    {
+      "src": "/kawa-mrozona.png",
+      "alt": "Mrożona kawa karmelowa na wynos z lodziarni Katowice Auchan",
+      "caption": "Kawa mrożona karmelowa",
+      "placeholder": true
+    },
+    {
+      "src": "/swiderki-w-kubkach.png",
+      "alt": "Nasza strefa w foodcourt Auchan — lodziarnia American Ice Dream Katowice",
+      "caption": "Nasza strefa w Auchan (placeholder)",
+      "placeholder": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "kat-faq-parking",
+      "question": "Gdzie mogę zaparkować przy lodziarni w Katowicach?",
+      "answer": "Parking Auchan Katowice oferuje ponad 1 800 bezpłatnych miejsc, dostępnych 24/7. Znajdziesz także strefę „Rodzina” (szersze miejsca przy wejściu), stanowiska dla osób z niepełnosprawnościami oraz ładowarki dla samochodów elektrycznych. Najbliżej naszego lokalu są sekcje B1 i B2."
+    },
+    {
+      "id": "kat-faq-wozek",
+      "question": "Czy jest wygodny dostęp z wózkiem dziecięcym?",
+      "answer": "Tak — cała nasza strefa w Katowicach jest na poziomie parteru, bez schodów. Wejście do galerii ma szerokie drzwi automatyczne, a foodcourt obok lodziarni ma dużo miejsca na manewrowanie wózkiem. Pudełka i foteliki do karmienia dostępne w toaletach publicznych Auchan."
+    },
+    {
+      "id": "kat-faq-platnosc",
+      "question": "Czy przyjmujecie płatność kartą i BLIKiem?",
+      "answer": "Oczywiście — przyjmujemy karty zbliżeniowe Visa/Mastercard, BLIK oraz Apple Pay / Google Pay. Gotówka również mile widziana. Za porcję poniżej 10 zł płatność BLIKiem jest najszybsza."
+    },
+    {
+      "id": "kat-faq-catering",
+      "question": "Czy mogę zamówić lody na urodziny lub event firmowy?",
+      "answer": "Tak, przygotowujemy gastronomię dla grup od 10 osób — z lekkim wyprzedzeniem (3 dni robocze). Zadzwoń do punktu Katowice pod +48 32 000 00 00 lub napisz na katowice@americanicedream.pl, ustalimy ofertę dopasowaną do wieku gości i miejsca."
+    }
+  ],
+  "seo": {
+    "title": "Lodziarnia Katowice Auchan — lody włoskie, świderki, granity | American Ice Dream",
+    "description": "American Ice Dream Katowice — lodziarnia przy Auchan (ul. Renców 30). Kremowe lody włoskie, świderki, desery i granity według receptury z 2006 roku. Otwarte 7 dni w tygodniu, bezpłatny parking.",
+    "keywords": [
+      "lodziarnia Katowice",
+      "lody włoskie Katowice",
+      "świderki Katowice",
+      "lody Katowice Auchan",
+      "deser lodowy Katowice",
+      "American Ice Dream Katowice",
+      "lodziarnia Katowice centrum"
+    ],
+    "headline": "Lodziarnia w Katowicach — lody włoskie i świderki",
+    "lead": "Auchan Katowice, ul. Renców 30. Kremowe lody włoskie, świderki, desery i granity — codziennie od 18 lat."
+  }
+}
