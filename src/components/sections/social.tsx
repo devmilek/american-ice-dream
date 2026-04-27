@@ -1,4 +1,9 @@
-import { Facebook, Instagram, TikTok } from "@/components/icons";
+import {
+	InstagramLogo,
+	InstagramLogoIcon,
+	TiktokLogoIcon,
+} from "@phosphor-icons/react/dist/ssr";
+import { FacebookLogoIcon } from "@phosphor-icons/react/dist/ssr/FacebookLogo";
 import { SocialScribble } from "@/components/illustrations";
 import { ScriptAccent } from "@/components/ui/script-accent";
 import { SectionHeading } from "@/components/ui/section-heading";
@@ -33,21 +38,21 @@ export async function Social() {
 						label={`TikTok · 150 obserwujących`}
 						handle={contact.socialMedia.tiktok.username}
 						iconClassName="text-black"
-						Icon={TikTok}
+						Icon={TiktokLogoIcon}
 						href={contact.socialMedia.tiktok.url}
 					/>
 					<SocialButton
 						label={`Instagram · 800 obserwujących`}
 						handle={contact.socialMedia.instagram.username}
 						iconClassName="text-[#d6298f]"
-						Icon={Instagram}
+						Icon={InstagramLogoIcon}
 						href={contact.socialMedia.instagram.url}
 					/>
 					<SocialButton
 						label={`Facebook · 800 obserwujących`}
 						handle={contact.socialMedia.facebook.username}
 						iconClassName="text-[#1877f2]"
-						Icon={Facebook}
+						Icon={FacebookLogoIcon}
 						href={contact.socialMedia.facebook.url}
 					/>
 				</div>

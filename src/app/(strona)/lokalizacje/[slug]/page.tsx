@@ -9,10 +9,10 @@ import { LocationFaq } from "@/components/sections/location/faq";
 import { LocationGallery } from "@/components/sections/location/gallery";
 import { LocationHero } from "@/components/sections/location/hero";
 import { LocationLodojadyCta } from "@/components/sections/location/lodojady-cta";
-import { getLocationDetails } from "@/lib/data/location-details";
-import { buildLocationPageGraph } from "@/lib/structured-data/location-page-graph";
-import { keystaticReader } from "@/lib/keystatic/reader";
 import { env } from "@/env";
+import { getLocationDetails } from "@/lib/data/location-details";
+import { keystaticReader } from "@/lib/keystatic/reader";
+import { buildLocationPageGraph } from "@/lib/structured-data/location-page-graph";
 
 type PageProps = {
 	params: Promise<{ slug: string }>;
@@ -49,14 +49,14 @@ export async function generateMetadata({
 		description: details.seo.description,
 		keywords: [...details.seo.keywords],
 		alternates: {
-			canonical: details.canonicalPath,
+			canonical: `${env.NEXT_PUBLIC_SITE_URL}/${slug}`,
 		},
 		openGraph: {
 			type: "website",
 			locale: "pl_PL",
 			title: details.seo.title,
 			description: details.seo.description,
-			url: `${env.NEXT_PUBLIC_SITE_URL}${details.canonicalPath}`,
+			url: `${env.NEXT_PUBLIC_SITE_URL}/${slug}`,
 			...(heroUrl
 				? {
 						images: [

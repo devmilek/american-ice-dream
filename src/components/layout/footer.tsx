@@ -1,8 +1,12 @@
+import {
+	FacebookLogoIcon,
+	InstagramLogoIcon,
+	TiktokLogoIcon,
+} from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
-import { Facebook, Instagram, TikTok } from "@/components/icons";
-import { getContactData, getLocationsData } from "@/lib/keystatic/reader";
 import { Fragment } from "react";
+import { getContactData, getLocationsData } from "@/lib/keystatic/reader";
 
 const nav = [
 	{ href: "#o-nas", label: "O nas" },
@@ -10,14 +14,6 @@ const nav = [
 	{ href: "#lokalizacje", label: "Lokalizacje" },
 	{ href: "#lodojady", label: "Lodojady" },
 	{ href: "#faq", label: "FAQ" },
-];
-
-const business = [
-	{ href: "#", label: "Catering i eventy" },
-	{ href: "#", label: "Torty lodowe" },
-	{ href: "#", label: "Franczyza" },
-	{ href: "#", label: "Hurt" },
-	{ href: "#", label: "Kariera" },
 ];
 
 export async function Footer() {
@@ -46,17 +42,17 @@ export async function Footer() {
 							{
 								href: contact.socialMedia.tiktok.url,
 								label: "TikTok",
-								Icon: TikTok,
+								Icon: TiktokLogoIcon,
 							},
 							{
 								href: contact.socialMedia.instagram.url,
 								label: "Instagram",
-								Icon: Instagram,
+								Icon: InstagramLogoIcon,
 							},
 							{
 								href: contact.socialMedia.facebook.url,
 								label: "Facebook",
-								Icon: Facebook,
+								Icon: FacebookLogoIcon,
 							},
 						].map(({ href, label, Icon }) => (
 							<a
@@ -65,6 +61,7 @@ export async function Footer() {
 								href={href}
 								aria-label={label}
 								className="flex h-9 w-9 items-center justify-center rounded-full border border-cream/10 bg-cream/8 text-cream transition-all duration-300 hover:-translate-y-0.5 hover:bg-gold hover:text-navy"
+								rel="noopener"
 							>
 								<Icon className="h-4 w-4" />
 							</a>

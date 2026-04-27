@@ -94,7 +94,7 @@ export const loyalty: LoyaltyData = {
 		},
 		{
 			id: "redeem",
-			title: "Odbieraj nagrodę",
+			title: "Odbieraj nagrody",
 			description:
 				"10 pieczątek = darmowy produkt. Wybierasz co chcesz: świderka, rurkę, granit albo kawę.",
 		},

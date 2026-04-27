@@ -1,3 +1,8 @@
+import {
+	ArrowRightIcon,
+	ClockIcon,
+	MapPinIcon,
+} from "@phosphor-icons/react/dist/ssr";
 import type { Metadata } from "next";
 import Link from "next/link";
 import type {
@@ -6,7 +11,6 @@ import type {
 	Organization,
 	WithContext,
 } from "schema-dts";
-import { ArrowRight, Clock, Pin } from "@/components/icons";
 import { Footer } from "@/components/layout/footer";
 import { Navigation } from "@/components/layout/navigation";
 import { TopBar } from "@/components/layout/top-bar";
@@ -42,19 +46,10 @@ export default async function KontaktPage() {
 
 	return (
 		<>
-			<TopBar />
-			<Navigation />
-			<LocationBreadcrumb
-				crumbs={[{ href: "/", label: "Strona główna" }, { label: "Kontakt" }]}
-			/>
-
-			<main className="flex-1">
-				<ContactHero />
-				<ContactMethods />
-				<LocationsList />
-				<CompanyData />
-			</main>
-			<Footer />
+			<ContactHero />
+			<ContactMethods />
+			<LocationsList />
+			<CompanyData />
 
 			{structuredData.map((payload, i) => (
 				<script
@@ -81,6 +76,10 @@ export default async function KontaktPage() {
 						background:
 							"radial-gradient(circle at 30% 30%, rgba(193,154,91,0.18), transparent 60%)",
 					}}
+				/>
+				<LocationBreadcrumb
+					className="flex justify-center"
+					crumbs={[{ href: "/", label: "Strona główna" }, { label: "Kontakt" }]}
 				/>
 				<div className="container-page relative max-w-3xl pb-14 pt-10 lg:pb-20 lg:pt-14">
 					<Eyebrow>Skontaktuj się z nami</Eyebrow>
@@ -155,7 +154,7 @@ export default async function KontaktPage() {
 						</ContactCard>
 
 						<ContactCard
-							icon={<Pin className="h-5 w-5 text-gold-deep" />}
+							icon={<MapPinIcon className="h-5 w-5 text-gold-deep" />}
 							label="Siedziba firmy"
 							title="Nasza siedziba"
 						>
@@ -220,7 +219,7 @@ export default async function KontaktPage() {
 									</address>
 									<dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-[12.5px]">
 										<dt className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-widest text-muted">
-											<Clock className="h-3 w-3 text-gold" />
+											<ClockIcon className="h-3 w-3 text-gold" />
 											Pon – Sob
 										</dt>
 										<dd className="text-right font-medium text-navy tabular-nums">
@@ -240,7 +239,7 @@ export default async function KontaktPage() {
 												className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-navy transition-colors hover:text-sky-deep"
 											>
 												Zobacz lokal
-												<ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
+												<ArrowRightIcon className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
 											</Link>
 										) : (
 											<span className="text-[12px] font-medium text-muted">
@@ -269,7 +268,7 @@ export default async function KontaktPage() {
 						<Button asChild variant="ghost">
 							<Link href="/#lokalizacje">
 								Przejdź do mapy
-								<ArrowRight />
+								<ArrowRightIcon />
 							</Link>
 						</Button>
 					</div>
@@ -315,7 +314,7 @@ export default async function KontaktPage() {
 									href={`mailto:${contactData.email}?subject=Zapytanie%20-%20American%20Ice%20Dream`}
 								>
 									Napisz do nas
-									<ArrowRight />
+									<ArrowRightIcon />
 								</a>
 							</Button>
 						</div>

@@ -1,16 +1,12 @@
 import type { Metadata } from "next";
-import { Footer } from "@/components/layout/footer";
-import { Navigation } from "@/components/layout/navigation";
-import { TopBar } from "@/components/layout/top-bar";
-import { LocationBreadcrumb } from "@/components/sections/location/breadcrumb";
 import { AboutAuthority } from "@/components/sections/about-page/authority";
 import { AboutExperience } from "@/components/sections/about-page/experience";
 import { AboutExpertise } from "@/components/sections/about-page/expertise";
 import { AboutHero } from "@/components/sections/about-page/hero";
 import { AboutTrust } from "@/components/sections/about-page/trust";
+import { env } from "@/env";
 import { aboutPage } from "@/lib/data/about";
 
-const SITE_URL = "https://americanicedream.pl";
 const PAGE_PATH = "/o-nas";
 
 export const metadata: Metadata = {
@@ -33,7 +29,7 @@ export const metadata: Metadata = {
 		title: "O nas - Agnieszka Socha, założycielka American Ice Dream (od 2006)",
 		description:
 			"Rodzinna lodziarnia z 18-letnią historią. Poznaj założycielkę, nasz proces produkcji i dostawców.",
-		url: `${SITE_URL}${PAGE_PATH}`,
+		url: `${env.NEXT_PUBLIC_SITE_URL}${PAGE_PATH}`,
 		images: [
 			{
 				url: aboutPage.founder.portrait.src,
@@ -55,20 +51,14 @@ export default function AboutPage() {
 
 	return (
 		<>
-			<TopBar />
-			<Navigation />
-			<main className="flex-1">
-				<AboutHero data={data} />
-				<AboutExperience data={data} />
-				<AboutExpertise data={data} />
-				<AboutAuthority data={data} />
-				<AboutTrust data={data} />
-			</main>
-			<Footer />
+			<AboutHero data={data} />
+			<AboutExperience data={data} />
+			<AboutExpertise data={data} />
+			<AboutAuthority data={data} />
+			<AboutTrust data={data} />
 
 			{structuredData.map((payload, i) => (
 				<script
-					// biome-ignore lint/suspicious/noArrayIndexKey: structured data has fixed order
 					key={`ld-${i}`}
 					type="application/ld+json"
 					// biome-ignore lint/security/noDangerouslySetInnerHtml: JSON-LD payload is controlled
@@ -86,19 +76,19 @@ export default function AboutPage() {
 function buildStructuredData() {
 	const { founder, trust, authority } = aboutPage;
 	const { company } = trust;
-	const pageUrl = `${SITE_URL}${PAGE_PATH}`;
+	const pageUrl = `${env.NEXT_PUBLIC_SITE_URL}${PAGE_PATH}`;
 
 	const organization = {
 		"@context": "https://schema.org",
 		"@type": "Organization",
-		"@id": `${SITE_URL}#organization`,
+		"@id": `${env.NEXT_PUBLIC_SITE_URL}#organization`,
 		name: company.legalName,
 		alternateName: company.tradeName,
-		url: SITE_URL,
-		logo: `${SITE_URL}/logo.png`,
+		url: env.NEXT_PUBLIC_SITE_URL,
+		logo: `${env.NEXT_PUBLIC_SITE_URL}/logo.png`,
 		foundingDate: company.establishedOn,
 		founder: {
-			"@id": `${SITE_URL}#founder`,
+			"@id": `${env.NEXT_PUBLIC_SITE_URL}#founder`,
 		},
 		taxID: company.taxId,
 		vatID: company.taxId,
@@ -131,18 +121,18 @@ function buildStructuredData() {
 			},
 		],
 		award: authority.awards.map((a) => a.title),
-		sameAs: [SITE_URL],
+		sameAs: [env.NEXT_PUBLIC_SITE_URL],
 	};
 
 	const person = {
 		"@context": "https://schema.org",
 		"@type": "Person",
-		"@id": `${SITE_URL}#founder`,
+		"@id": `${env.NEXT_PUBLIC_SITE_URL}#founder`,
 		name: founder.name,
 		jobTitle: founder.role,
 		description: founder.quoteLong,
-		image: `${SITE_URL}${founder.portrait.src}`,
-		worksFor: { "@id": `${SITE_URL}#organization` },
+		image: `${env.NEXT_PUBLIC_SITE_URL}${founder.portrait.src}`,
+		worksFor: { "@id": `${env.NEXT_PUBLIC_SITE_URL}#organization` },
 		nationality: { "@type": "Country", name: "Poland" },
 		alumniOf: {
 			"@type": "CollegeOrUniversity",
@@ -163,10 +153,10 @@ function buildStructuredData() {
 		name: "O American Ice Dream",
 		description: aboutPage.hero.lead,
 		url: pageUrl,
-		mainEntity: { "@id": `${SITE_URL}#organization` },
+		mainEntity: { "@id": `${env.NEXT_PUBLIC_SITE_URL}#organization` },
 		about: [
-			{ "@id": `${SITE_URL}#organization` },
-			{ "@id": `${SITE_URL}#founder` },
+			{ "@id": `${env.NEXT_PUBLIC_SITE_URL}#organization` },
+			{ "@id": `${env.NEXT_PUBLIC_SITE_URL}#founder` },
 		],
 	};
 
@@ -178,7 +168,7 @@ function buildStructuredData() {
 				"@type": "ListItem",
 				position: 1,
 				name: "Strona główna",
-				item: SITE_URL,
+				item: env.NEXT_PUBLIC_SITE_URL,
 			},
 			{
 				"@type": "ListItem",

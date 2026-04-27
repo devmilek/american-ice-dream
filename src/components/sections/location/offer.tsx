@@ -1,10 +1,10 @@
+import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
-import { ArrowRight } from "@/components/icons";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { ScriptAccent } from "@/components/ui/script-accent";
-import { products } from "@/lib/data/products";
-import type { Location } from "@/lib/data/locations";
 import type { LocationDetails } from "@/lib/data/location-details";
+import type { Location } from "@/lib/data/locations";
+import { products } from "@/lib/data/products";
 
 type Props = {
 	location: Location;
@@ -77,7 +77,7 @@ export function LocationOffer({ location, details }: Props) {
 						className="inline-flex items-center gap-1.5 text-[14px] font-semibold text-navy transition-colors hover:text-sky-deep"
 					>
 						Zobacz pełną kartę
-						<ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+						<ArrowRightIcon className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
 					</Link>
 				</div>
 			</div>

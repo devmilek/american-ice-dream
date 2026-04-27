@@ -1,19 +1,24 @@
+import { SiApple, SiGoogleplay } from "@icons-pack/react-simple-icons";
+import {
+	ArrowRightIcon,
+	CardholderIcon,
+	CheckCircle,
+	ContactlessPaymentIcon,
+	DownloadIcon,
+	StarIcon,
+} from "@phosphor-icons/react/dist/ssr";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight } from "@/components/icons";
-import { Footer } from "@/components/layout/footer";
-import { Navigation } from "@/components/layout/navigation";
-import { TopBar } from "@/components/layout/top-bar";
 import { LocationBreadcrumb } from "@/components/sections/location/breadcrumb";
+import { LoyaltyFaqClient } from "@/components/sections/loyalty/faq-client";
 import { Button } from "@/components/ui/button";
 import { Eyebrow } from "@/components/ui/eyebrow";
-import { LoyaltyFaqClient } from "@/components/sections/loyalty/faq-client";
 import { QrCode } from "@/components/ui/qr-code";
 import { ScriptAccent } from "@/components/ui/script-accent";
+import { env } from "@/env";
 import { loyalty } from "@/lib/data/loyalty";
 
-const SITE_URL = "https://americanicedream.pl";
 const PAGE_PATH = "/program-lojalnosciowy";
 
 export const metadata: Metadata = {
@@ -27,7 +32,7 @@ export const metadata: Metadata = {
 		title: "Karta LODOJADA - program lojalnościowy American Ice Dream",
 		description:
 			"Zbieraj pieczątki w aplikacji Embargo. 8 zł = 1 pieczątka, 10 pieczątek = darmowy produkt.",
-		url: `${SITE_URL}${PAGE_PATH}`,
+		url: `${env.NEXT_PUBLIC_SITE_URL}/${PAGE_PATH}`,
 	},
 };
 
@@ -36,28 +41,14 @@ export default function ProgramLojalnosciowyPage() {
 
 	return (
 		<>
-			<TopBar />
-			<Navigation />
-			<LocationBreadcrumb
-				crumbs={[
-					{ href: "/", label: "Strona główna" },
-					{ label: "Karta LODOJADA" },
-				]}
-			/>
-
-			<main className="flex-1">
-				<HeroSection />
-				<HowItWorksSection />
-				<MechanicsSection />
-				<FaqSection />
-				<FinalCtaSection />
-			</main>
-
-			<Footer />
+			<HeroSection />
+			<HowItWorksSection />
+			<MechanicsSection />
+			<FaqSection />
+			<LoyaltyCtaSection />
 
 			{structuredData.map((payload, i) => (
 				<script
-					// biome-ignore lint/suspicious/noArrayIndexKey: structured data has fixed order
 					key={`ld-${i}`}
 					type="application/ld+json"
 					// biome-ignore lint/security/noDangerouslySetInnerHtml: JSON-LD payload is controlled
@@ -76,6 +67,13 @@ function HeroSection() {
 			className="relative overflow-hidden pt-6"
 			aria-labelledby="loy-hero-title"
 		>
+			<LocationBreadcrumb
+				className="flex justify-center"
+				crumbs={[
+					{ href: "/", label: "Strona główna" },
+					{ label: "Karta LODOJADA" },
+				]}
+			/>
 			<div
 				aria-hidden
 				className="pointer-events-none absolute -right-56 -top-32 h-[520px] w-[520px] rounded-full"
@@ -96,7 +94,6 @@ function HeroSection() {
 			<div className="container-page relative grid items-center gap-14 pb-20 pt-12 lg:grid-cols-[1.1fr_0.9fr] lg:gap-20 lg:pb-28 lg:pt-16">
 				<div>
 					<EmbargoBadge />
-					<Eyebrow className="mt-5">{loyalty.hero.eyebrow}</Eyebrow>
 					<h1
 						id="loy-hero-title"
 						className="mt-5 mb-5 font-display font-semibold text-[clamp(2.5rem,5vw+0.4rem,4.25rem)] leading-[0.98] tracking-[-0.03em] text-navy"
@@ -119,8 +116,7 @@ function HeroSection() {
 					</div>
 
 					<p className="mt-5 text-[13px] text-muted">
-						Aplikacja {loyalty.app.name} jest bezpłatna · Bez reklam · Obsługa
-						NFC
+						Aplikacja {loyalty.app.name} jest bezpłatna
 					</p>
 				</div>
 
@@ -169,7 +165,6 @@ function HeroVisual() {
 				<div className="relative mt-8 grid grid-cols-5 gap-2.5">
 					{Array.from({ length: 10 }).map((_, i) => (
 						<StampDot
-							// biome-ignore lint/suspicious/noArrayIndexKey: fixed stamp grid
 							key={i}
 							filled={i < 7}
 							label={`pieczątka ${i + 1} z 10`}
@@ -190,7 +185,7 @@ function HeroVisual() {
 						</p>
 					</div>
 					<div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-cream text-navy">
-						<NfcIcon />
+						<ContactlessPaymentIcon />
 					</div>
 				</div>
 			</div>
@@ -340,7 +335,7 @@ function MechanicsSection() {
 					<Button asChild variant="ghost">
 						<Link href="/program-lojalnosciowy#faq">
 							Zobacz pełne FAQ
-							<ArrowRight />
+							<ArrowRightIcon />
 						</Link>
 					</Button>
 				</div>
@@ -383,7 +378,7 @@ function FaqSection() {
 	);
 }
 
-async function FinalCtaSection() {
+export async function LoyaltyCtaSection() {
 	return (
 		<section className="py-24 lg:py-28" aria-labelledby="loy-cta-title">
 			<div className="container-page">
@@ -412,11 +407,9 @@ async function FinalCtaSection() {
 								id="loy-cta-title"
 								className="mt-4 mb-5 font-display text-white text-[clamp(2rem,4vw+0.6rem,3.5rem)] leading-[1.04] tracking-tight"
 							>
-								Trzy minuty setupu,{" "}
-								<ScriptAccent tone="gold-soft">
-									dziesiątki bezpłatnych porcji
-								</ScriptAccent>{" "}
-								rocznie.
+								Dołącz do{" "}
+								<ScriptAccent tone="gold-soft">LODOJADÓW </ScriptAccent> i
+								odbieraj gałki w nagrodę.
 							</h2>
 							<p className="mb-8 max-w-xl text-[1.0625rem] leading-relaxed text-cream/80">
 								Pobierz aplikację Embargo i zeskanuj QR przy kasie przy
@@ -515,7 +508,7 @@ function AppStoreButton({
 			aria-label="Pobierz Embargo w App Store"
 			className={`inline-flex items-center gap-3 rounded-2xl px-5 py-3 transition-[transform,background-color] duration-300 hover:-translate-y-0.5 ${classes}`}
 		>
-			<AppleLogo />
+			<SiApple className="size-5" />
 			<span className="flex flex-col items-start leading-tight">
 				<span className="font-sans text-[10.5px] font-medium uppercase tracking-[0.18em] opacity-70">
 					Pobierz w
@@ -547,7 +540,7 @@ function GooglePlayButton({
 			aria-label="Pobierz Embargo w Google Play"
 			className={`inline-flex items-center gap-3 rounded-2xl border px-5 py-3 transition-[transform,background-color,border-color] duration-300 hover:-translate-y-0.5 ${classes}`}
 		>
-			<GooglePlayLogo />
+			<SiGoogleplay className="size-5" />
 			<span className="flex flex-col items-start leading-tight">
 				<span className="font-sans text-[10.5px] font-medium uppercase tracking-[0.18em] opacity-70">
 					Pobierz z
@@ -560,180 +553,24 @@ function GooglePlayButton({
 	);
 }
 
-function AppleLogo() {
-	return (
-		<svg
-			viewBox="0 0 24 24"
-			aria-hidden="true"
-			focusable="false"
-			className="h-6 w-6"
-		>
-			<path
-				fill="currentColor"
-				d="M17.6 13c0-2.1 1.7-3.1 1.8-3.2c-1-1.4-2.5-1.6-3-1.6c-1.3-.1-2.6.8-3.2.8c-.7 0-1.7-.8-2.8-.8c-1.4 0-2.7.8-3.4 2.1c-1.5 2.6-.4 6.4 1 8.5c.7 1 1.6 2.1 2.7 2c1.1 0 1.5-.7 2.8-.7c1.3 0 1.7.7 2.8.7c1.2 0 1.9-1 2.6-2c.8-1.1 1.2-2.3 1.2-2.3s-2.3-.9-2.3-3.5zM15.5 6.7c.6-.7 1-1.7.9-2.7c-.9 0-1.9.6-2.6 1.3c-.6.6-1.1 1.7-.9 2.6c1 .1 2-.5 2.6-1.2z"
-			/>
-		</svg>
-	);
-}
-
-function GooglePlayLogo() {
-	return (
-		<svg
-			viewBox="0 0 24 24"
-			aria-hidden="true"
-			focusable="false"
-			className="h-6 w-6"
-		>
-			<path
-				fill="currentColor"
-				d="M3.6 2.4c-.3.3-.5.7-.5 1.2v16.8c0 .5.2.9.5 1.2l.1.1l9.4-9.4v-.2L3.7 2.3zm12.6 12.5l-3.1-3.1V12l3.1-3.1l.1.1l3.7 2.1c1 .6 1 1.6 0 2.2zM13.1 11.8l-9.4 9.4c.3.3.9.4 1.5 0l11-6.3l-3.1-3.1zm0-.4l3.1-3.1l-11-6.3c-.6-.3-1.2-.3-1.5 0z"
-			/>
-		</svg>
-	);
-}
-
-function NfcIcon() {
-	return (
-		<svg
-			viewBox="0 0 24 24"
-			fill="none"
-			aria-hidden="true"
-			focusable="false"
-			className="h-7 w-7"
-		>
-			<path
-				d="M6.5 12a5.5 5.5 0 0 1 5.5-5.5"
-				stroke="currentColor"
-				strokeWidth="1.7"
-				strokeLinecap="round"
-			/>
-			<path
-				d="M3 12a9 9 0 0 1 9-9"
-				stroke="currentColor"
-				strokeWidth="1.7"
-				strokeLinecap="round"
-			/>
-			<path
-				d="M17.5 12a5.5 5.5 0 0 1-5.5 5.5"
-				stroke="currentColor"
-				strokeWidth="1.7"
-				strokeLinecap="round"
-			/>
-			<path
-				d="M21 12a9 9 0 0 1-9 9"
-				stroke="currentColor"
-				strokeWidth="1.7"
-				strokeLinecap="round"
-			/>
-			<circle cx="12" cy="12" r="1.6" fill="currentColor" />
-		</svg>
-	);
-}
-
 function StepIcon({ id }: { id: string }) {
 	const cls = "h-6 w-6 text-gold-deep";
 	if (id === "download") {
-		return (
-			<svg
-				viewBox="0 0 24 24"
-				fill="none"
-				aria-hidden="true"
-				focusable="false"
-				className={cls}
-			>
-				<path
-					d="M12 4v11m0 0l-4-4m4 4l4-4"
-					stroke="currentColor"
-					strokeWidth="1.7"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
-				<path
-					d="M4 17v1.5A2.5 2.5 0 0 0 6.5 21h11a2.5 2.5 0 0 0 2.5-2.5V17"
-					stroke="currentColor"
-					strokeWidth="1.7"
-					strokeLinecap="round"
-				/>
-			</svg>
-		);
+		return <DownloadIcon className={cls} />;
 	}
 	if (id === "activate") {
-		return (
-			<svg
-				viewBox="0 0 24 24"
-				fill="none"
-				aria-hidden="true"
-				focusable="false"
-				className={cls}
-			>
-				<rect
-					x="3"
-					y="5"
-					width="18"
-					height="14"
-					rx="2.5"
-					stroke="currentColor"
-					strokeWidth="1.7"
-				/>
-				<path d="M3 10h18" stroke="currentColor" strokeWidth="1.7" />
-				<path
-					d="M7 15h4"
-					stroke="currentColor"
-					strokeWidth="1.7"
-					strokeLinecap="round"
-				/>
-			</svg>
-		);
+		return <CardholderIcon className={cls} />;
 	}
 	if (id === "collect") {
-		return (
-			<svg
-				viewBox="0 0 24 24"
-				fill="none"
-				aria-hidden="true"
-				focusable="false"
-				className={cls}
-			>
-				<circle
-					cx="12"
-					cy="12"
-					r="8"
-					stroke="currentColor"
-					strokeWidth="1.7"
-					strokeDasharray="3 2"
-				/>
-				<path
-					d="M8 12l3 3l5-6"
-					stroke="currentColor"
-					strokeWidth="1.9"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
-			</svg>
-		);
+		return <CheckCircle className={cls} />;
 	}
-	return (
-		<svg
-			viewBox="0 0 24 24"
-			fill="none"
-			aria-hidden="true"
-			focusable="false"
-			className={cls}
-		>
-			<path
-				d="M12 3l2.3 4.7l5.2.8l-3.8 3.7l.9 5.2L12 15l-4.6 2.4l.9-5.2L4.5 8.5l5.2-.8z"
-				stroke="currentColor"
-				strokeWidth="1.7"
-				strokeLinejoin="round"
-			/>
-		</svg>
-	);
+	return <StarIcon className={cls} />;
 }
 
 /* -------------------- Structured data (JSON-LD) -------------------- */
 
 function buildStructuredData() {
-	const pageUrl = `${SITE_URL}${PAGE_PATH}`;
+	const pageUrl = `${env.NEXT_PUBLIC_SITE_URL}/${PAGE_PATH}`;
 
 	const webPage = {
 		"@context": "https://schema.org",
@@ -743,7 +580,7 @@ function buildStructuredData() {
 		url: pageUrl,
 		description:
 			"Zbieraj pieczątki w aplikacji Embargo: 8 zł = 1 pieczątka, 10 pieczątek = darmowy produkt.",
-		about: { "@id": `${SITE_URL}#organization` },
+		about: { "@id": `${env.NEXT_PUBLIC_SITE_URL}#organization` },
 	};
 
 	const faqPage = {
@@ -785,7 +622,7 @@ function buildStructuredData() {
 		alternateName: loyalty.app.name,
 		applicationCategory: "LifestyleApplication",
 		operatingSystem: "iOS, Android",
-		image: `${SITE_URL}${loyalty.app.iconSrc}`,
+		image: `${env.NEXT_PUBLIC_SITE_URL}${loyalty.app.iconSrc}`,
 		author: { "@type": "Organization", name: loyalty.app.publisher },
 		offers: { "@type": "Offer", price: "0", priceCurrency: "PLN" },
 		installUrl: [loyalty.app.appStoreUrl, loyalty.app.googlePlayUrl],
@@ -799,7 +636,7 @@ function buildStructuredData() {
 				"@type": "ListItem",
 				position: 1,
 				name: "Strona główna",
-				item: SITE_URL,
+				item: env.NEXT_PUBLIC_SITE_URL,
 			},
 			{
 				"@type": "ListItem",

@@ -1,9 +1,12 @@
-import { SVGProps, useRef } from "react";
-import { motion, useScroll, useTransform } from "motion/react";
+import {
+	motion,
+	type SVGMotionProps,
+	useScroll,
+	useTransform,
+} from "motion/react";
 
-// Dodajemy interfejs, aby obsłużyć kontener (sekcję)
-interface YearStampProps extends SVGProps<SVGSVGElement> {
-	targetRef: React.RefObject<HTMLElement>;
+interface YearStampProps extends SVGMotionProps<SVGSVGElement> {
+	targetRef: React.RefObject<HTMLElement | null>;
 }
 
 export function YearStamp({ targetRef, ...props }: YearStampProps) {

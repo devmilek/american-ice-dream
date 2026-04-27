@@ -1,11 +1,10 @@
-import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRightIcon, StarIcon } from "@phosphor-icons/react/dist/ssr";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { ScriptAccent } from "@/components/ui/script-accent";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { cn } from "@/lib/cn";
 import { type Review, reviews } from "@/lib/data/reviews";
-import { FiveStars } from "../icons";
 
 const AVATAR_TONES: Record<Review["avatarTone"], string> = {
 	a: "bg-linear-to-br from-sky to-sky-deep",
@@ -23,7 +22,7 @@ export function Reviews() {
 			<div className="container-page">
 				<SectionHeading
 					eyebrow="Pokochali nas"
-					description="Najnowsze opinie bezpośrednio z Google - aktualizowane codziennie."
+					description="Zobacz opinie naszych klientów."
 				>
 					<span id="rev-title">
 						4,9 gwiazdki z&nbsp;<ScriptAccent>2&nbsp;413</ScriptAccent> opinii
@@ -52,7 +51,7 @@ export function Reviews() {
 function ReviewCard({ review }: { review: Review }) {
 	return (
 		<figure
-			className="relative m-0 rounded-lg border border-navy/8 bg-cream p-8 transition-transform duration-300 hover:-translate-y-1"
+			className="relative m-0 rounded-lg border border-navy/8 bg-cream p-8 transition-transform duration-300 hover:-translate-y-1 flex flex-col"
 			itemScope
 			itemType="https://schema.org/Review"
 		>
@@ -62,9 +61,17 @@ function ReviewCard({ review }: { review: Review }) {
 			>
 				&ldquo;
 			</span>
-			<FiveStars className="mb-4.5 flex gap-0.5" />
+			<div className="mb-4.5 gap-0.5 flex">
+				{Array.from({ length: 5 }).map((_, index) => (
+					<StarIcon
+						key={`star-${index}`}
+						weight="fill"
+						className="fill-gold text-gold size-3"
+					/>
+				))}
+			</div>
 			<blockquote
-				className="mb-6 m-0 font-display text-[1.125rem] italic leading-normal text-navy"
+				className="mb-6 m-0 font-display text-[1.125rem] italic leading-normal text-navy flex-1"
 				itemProp="reviewBody"
 			>
 				{review.quote}

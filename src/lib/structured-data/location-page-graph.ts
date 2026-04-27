@@ -1,3 +1,4 @@
+import slugify from "@sindresorhus/slugify";
 import type {
 	AggregateRating,
 	Answer,
@@ -15,9 +16,8 @@ import type {
 	Rating,
 	Review,
 } from "schema-dts";
-import { LocalizationEntry } from "../../../keystatic/location-collection";
 import { env } from "@/env";
-import slugify from "@sindresorhus/slugify";
+import type { LocalizationEntry } from "@/keystatic/location-collection";
 
 const WEEKDAY_DAYS: readonly DayOfWeek[] = [
 	"Monday",

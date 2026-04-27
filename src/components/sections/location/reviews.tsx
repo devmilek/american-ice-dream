@@ -1,8 +1,8 @@
-import { FiveStars, Star } from "@/components/icons";
+import { StarIcon } from "@phosphor-icons/react/dist/ssr/Star";
 import { Eyebrow } from "@/components/ui/eyebrow";
 import { ScriptAccent } from "@/components/ui/script-accent";
-import type { Location } from "@/lib/data/locations";
 import type { LocationDetails } from "@/lib/data/location-details";
+import type { Location } from "@/lib/data/locations";
 
 type Props = {
 	location: Location;
@@ -91,7 +91,11 @@ function AggregateCard({ rating, count }: { rating: number; count: number }) {
 			</div>
 			<div className="h-10 w-px bg-navy/10" aria-hidden />
 			<div className="flex flex-col gap-1">
-				<FiveStars className="flex gap-0.5" />
+				<span className="flex gap-0.5">
+					{Array.from({ length: 5 }).map((_, i) => (
+						<StarIcon key={i} className="h-4 w-4 fill-navy/10 text-navy/10" />
+					))}
+				</span>
 				<span className="text-[11px] font-semibold uppercase tracking-[0.14em] text-gold-deep">
 					Google · 4.5+ only
 				</span>
@@ -116,18 +120,18 @@ function RatingStars({ value }: { value: number }) {
 				if (isHalf) {
 					return (
 						<span key={starKey} className="relative h-4 w-4">
-							<Star className="absolute h-4 w-4 fill-navy/10 text-navy/10" />
+							<StarIcon className="absolute h-4 w-4 fill-navy/10 text-navy/10" />
 							<span
 								className="absolute inset-0 overflow-hidden"
 								style={{ width: "50%" }}
 							>
-								<Star className="h-4 w-4 fill-gold text-gold" />
+								<StarIcon className="h-4 w-4 fill-gold text-gold" />
 							</span>
 						</span>
 					);
 				}
 				return (
-					<Star
+					<StarIcon
 						key={starKey}
 						className={`h-4 w-4 ${isFull ? "fill-gold text-gold" : "fill-navy/10 text-navy/10"}`}
 					/>
