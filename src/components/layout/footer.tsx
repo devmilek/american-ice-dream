@@ -1,3 +1,4 @@
+import { ConsentDialogLink } from "@c15t/nextjs/components/consent-dialog-link";
 import {
 	FacebookLogoIcon,
 	InstagramLogoIcon,
@@ -124,9 +125,9 @@ export async function Footer() {
 						Regulamin
 					</Link>{" "}
 					·{" "}
-					<Link href="#" className="hover:text-gold-soft">
+					<ConsentDialogLink className="hover:text-gold-soft">
 						Cookies
-					</Link>
+					</ConsentDialogLink>
 				</span>
 			</div>
 		</footer>

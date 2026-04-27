@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Caveat, Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
+import ConsentManagerClient from "@/components/consent-manager-client";
 
 const fraunces = Fraunces({
 	variable: "--font-fraunces",
@@ -58,8 +59,10 @@ export default function RootLayout({
 				></meta>
 			</head>
 			<body className="flex min-h-full flex-col bg-cream text-ink font-sans">
-				<div className="grain-overlay" aria-hidden />
-				{children}
+				<ConsentManagerClient>
+					<div className="grain-overlay" aria-hidden />
+					{children}
+				</ConsentManagerClient>
 			</body>
 		</html>
 	);
