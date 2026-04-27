@@ -1,0 +1,93 @@
+{
+  "locationName": "Żory Auchan",
+  "address": {
+    "city": "Żory",
+    "venue": "Auchan",
+    "street": "Francuska 11",
+    "postal": "44-240",
+    "googleBusinessId": "18243063157519405774",
+    "coordinates": {
+      "lat": "50.0407",
+      "lng": "18.6955"
+    }
+  },
+  "hours": {
+    "weekdays": "9:00–21:00",
+    "sunday": "9:30–20:00"
+  },
+  "shortDescription": "American Ice Dream w Auchan Żory - drugi punkt w mieście, ul. Francuska 11.",
+  "hero": {
+    "image": {
+      "src": "/lokalizacje/zory-auchan/hero/image/src.jpg",
+      "alt": "Lodziarnia American Ice Dream w Auchan Żory przy ul. Francuskiej"
+    },
+    "subheading": "Lody włoskie przy ul. Francuskiej",
+    "badge": "Auchan · od 2006"
+  },
+  "neighborhood": "Centrum Handlowe Auchan Żory przy ul. Francuskiej - strefa handlowa i gastronomiczna hipermarketu Auchan w Żorach",
+  "transport": {
+    "car": "Centrum Handlowe Auchan Żory zlokalizowane jest przy ul. Francuskiej 11, w centrum Żor. Dojazd samochodem z centrum miasta zajmuje kilka minut. Obiekt dostępny od strony głównych arterii komunikacyjnych Żor.",
+    "public": "Komunikacja miejska Żory obsługuje linie autobusowe w pobliżu Auchan przy ul. Francuskiej. Sprawdź aktualny rozkład w punkcie informacyjnym centrum.",
+    "parking": "Bezpłatny parking dla klientów hipermarketu Auchan Żory z dużą liczbą miejsc, w tym miejscami dla osób z niepełnosprawnościami.",
+    "accessibility": "Obiekt na jednym poziomie z wygodnym dostępem dla wózków dziecięcych i inwalidzkich. Szerokie wejścia automatyczne."
+  },
+  "description": {
+    "subheading": "Lodziarnia w Żorach – Auchan Francuska",
+    "lead": "American Ice Dream w Auchan Żory - ul. Francuska 11. Lody włoskie, świderki i orzeźwiające granity dostępne od 9:00 do 21:00, od poniedziałku do soboty.",
+    "body": [
+      "Drugi punkt American Ice Dream w Żorach - tym razem w Centrum Handlowym Auchan przy ul. Francuskiej. To doskonała opcja dla tych, którzy łączą zakupy w Auchan z chwilą odpoczynku przy lodach.",
+      "W menu te same ulubione smaki: kremowe lody włoskie, delikatne świderki, granity owocowe, rurki z bitą śmietaną i kawa mrożona. Wszystko świeżo serwowane na miejscu.",
+      "Auchan Żory czynny jest od wczesnych godzin rannych, a nasz punkt gastronomiczny działa od 9:00 - idealnie na słodki start dnia przy okazji porannych zakupów."
+    ]
+  },
+  "lodojady": {
+    "intro": "W Auchan Żory zbierasz pieczątki w aplikacji Embargo - co 8. porcja jest na nasz koszt. Zeskanuj kod QR, żeby dołączyć do Lodojadów.",
+    "qr": {
+      "url": "https://embargo.app/loyalty/american-ice-dream?loc=zory-auchan",
+      "alt": "Kod QR do programu Lodojady - American Ice Dream Żory Auchan"
+    }
+  },
+  "reviews": {
+    "aggregate": {
+      "rating": 5,
+      "count": 0
+    },
+    "items": []
+  },
+  "gallery": [],
+  "faqs": [
+    {
+      "id": "zauc-faq-godziny",
+      "question": "W jakich godzinach czynna jest lodziarnia w Auchan Żory?",
+      "answer": "Od poniedziałku do soboty jesteśmy otwarci w godzinach 9:00–21:00. W niedziele handlowe zapraszamy od 9:30 do 20:00."
+    },
+    {
+      "id": "zauc-faq-dwie-lodziarnie",
+      "question": "Ile punktów American Ice Dream jest w Żorach?",
+      "answer": "W Żorach mamy dwa punkty: jeden w Galerii Wiślanka (ul. Katowicka 10) i drugi w Auchan (ul. Francuska 11). Oba działają na co dzień z tą samą ofertą."
+    },
+    {
+      "id": "zauc-faq-parking",
+      "question": "Czy przy Auchan Żory jest bezpłatny parking?",
+      "answer": "Tak - hipermarket Auchan Żory dysponuje bezpłatnym parkingiem dla klientów z licznymi miejscami, w tym miejscami dla osób z niepełnosprawnościami."
+    },
+    {
+      "id": "zauc-faq-oferta",
+      "question": "Jakie produkty są dostępne w American Ice Dream w Auchan Żory?",
+      "answer": "Lody włoskie, lody świderki, granity owocowe, desery lodowe, rurki z bitą śmietaną oraz kawa mrożona - serwowane świeżo, z sezonowymi dodatkami."
+    }
+  ],
+  "seo": {
+    "title": "Lodziarnia Żory Auchan – American Ice Dream ul. Francuska",
+    "description": "Lody włoskie, świderki i granity w Auchan Żory, ul. Francuska 11. Otwarte pn.–sob. 9–21, niedziele handlowe 9:30–20. Drugi punkt American Ice Dream w Żorach.",
+    "keywords": [
+      "lodziarnia Żory Auchan",
+      "American Ice Dream Francuska",
+      "lody Żory Auchan",
+      "ul. Francuska 11 lody",
+      "Auchan Żory gastronomia"
+    ],
+    "headline": "Lodziarnia Żory Auchan – American Ice Dream ul. Francuska",
+    "lead": "Ul. Francuska 11 - drugi adres American Ice Dream w Żorach, przy zakupach w Auchan."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "locationName": "Katowice Auchan",
+  "address": {
+    "city": "Katowice",
+    "venue": "Auchan",
+    "street": "Trasa Nikodema i Józefa Renców 30",
+    "postal": "40-878",
+    "googleBusinessId": "16671326286577181079",
+    "coordinates": {
+      "lat": "50.2739224",
+      "lng": "18.9670523"
+    }
+  },
+  "hours": {
+    "weekdays": "9:00–21:00",
+    "sunday": "9:30–19:00"
+  },
+  "shortDescription": "American Ice Dream w Auchan Katowice - kremowe lody włoskie, świderki i desery lodowe codziennie od 9:00.",
+  "hero": {
+    "image": {
+      "src": "/lokalizacje/katowice-auchan/hero/image/src.jpg",
+      "alt": "Kubki lodów włoskich American Ice Dream dostępne w Katowicach - smak waniliowy, czekoladowy i truskawkowy"
+    },
+    "subheading": "Lody włoskie i świderki",
+    "badge": "Auchan · od 2006"
+  },
+  "neighborhood": "Dzielnica Ligota/Panewniki, przy Trasie Renców - strefa handlowa i gastronomiczna Centrum Handlowego Auchan Katowice",
+  "transport": {
+    "car": "Centrum Handlowe Auchan Katowice leży przy Trasie Renców, z szybkim dojazdem od DTŚ i DK86. Wygodny dojazd z centrum Katowic (ok. 10 min), Sosnowca, Mysłowic i Tychów.",
+    "public": "Komunikacja miejska ZTM: kilka linii autobusowych zatrzymuje się w pobliżu centrum przy Trasie Renców. Sprawdź aktualny rozkład na rzkm.katowice.eu.",
+    "parking": "Centrum dysponuje ok. 404 miejscami parkingowymi (dane RetailMap), w tym miejscami dla osób z niepełnosprawnościami. Parking bezpłatny dla klientów.",
+    "accessibility": "Obiekt na jednym poziomie handlowym. Szerokie wejścia automatyczne, pełny dostęp dla wózków dziecięcych i inwalidzkich."
+  },
+  "description": {
+    "subheading": "Lodziarnia w Katowicach – lody włoskie i świderki",
+    "lead": "American Ice Dream w Auchan Katowice - Trasa Nikodema i Józefa Renców 30. Kremowe lody włoskie, świderki i desery lodowe codziennie od 9:00.",
+    "body": [
+      "Nasz punkt w Auchan Katowice obsługuje mieszkańców Katowic i okolicznych miast od lat - to stały adres rodzinnych wizyt przy okazji zakupów w weekendy i w tygodniu.",
+      "W menu: lody włoskie, świderki, granity owocowe, rurki z bitą śmietaną i kawa mrożona. Serwujemy je z sezonowymi dodatkami, a receptura lodów pozostaje niezmieniona od 2006 roku.",
+      "Znajdziesz nas w strefie gastronomicznej centrum Auchan Katowice. Centrum handlowe jest otwarte od 9:00 do 21:00 w dni robocze i soboty, w niedziele handlowe czynne od 9:30."
+    ]
+  },
+  "lodojady": {
+    "intro": "W punkcie Katowice Auchan zbierasz pieczątki w aplikacji Embargo - co 8. porcja jest na nasz koszt. Zeskanuj kod QR, żeby dołączyć do Lodojadów.",
+    "qr": {
+      "url": "https://embargo.app/loyalty/american-ice-dream?loc=katowice",
+      "alt": "Kod QR do programu Lodojady w lokalizacji Katowice Auchan - American Ice Dream"
+    }
+  },
+  "reviews": {
+    "aggregate": {
+      "rating": 4.9,
+      "count": 612
+    },
+    "items": [
+      {
+        "id": "rv-kat-1",
+        "author": "Anna Kłos",
+        "rating": 5,
+        "date": "2026-04-02",
+        "content": "Najlepsze lody włoskie w Katowicach - jeździmy tu z dziećmi w każdy weekend. Świderek czekoladowo-waniliowy jest absolutnym klasykiem, a obsługa zawsze się uśmiecha. Polecam!"
+      },
+      {
+        "id": "rv-kat-2",
+        "author": "Marek Pawlik",
+        "rating": 5,
+        "date": "2026-03-18",
+        "content": "Zaskoczeni jakością - byliśmy przejazdem z Krakowa i po prostu rewelacja. Deser „Śląska Zamieć” to coś, czego nie spotkałem nigdzie indziej. Wracamy przy następnych zakupach w Auchan."
+      },
+      {
+        "id": "rv-kat-3",
+        "author": "Katarzyna Wilk",
+        "rating": 5,
+        "date": "2026-03-09",
+        "content": "Moja córka nie jadła lodów, bo ma nietolerancję laktozy - tutaj znaleźliśmy wersję na mleku roślinnym. Smak pierwsza klasa. Dla rodziców z dziećmi to raj."
+      },
+      {
+        "id": "rv-kat-4",
+        "author": "Piotr Lisek",
+        "rating": 4.5,
+        "date": "2026-02-22",
+        "content": "Kawa mrożona karmelowa świetna, świderki bez zarzutu. Jedyny minus to czasem kolejka w niedzielę handlową - ale schodzi szybko. Ceny rozsądne jak na galerię."
+      },
+      {
+        "id": "rv-kat-5",
+        "author": "Magdalena Stępień",
+        "rating": 5,
+        "date": "2026-02-11",
+        "content": "Jeździmy tu z Sosnowca kilka razy w miesiącu. Rurki z bitą śmietaną są zawsze świeże, a lody mają konsystencję, jakiej nie spotkasz w supermarketowych „włoskich”. Niesamowicie stabilna jakość przez lata."
+      },
+      {
+        "id": "rv-kat-6",
+        "author": "Bartłomiej Olszewski",
+        "rating": 5,
+        "date": "2026-01-30",
+        "content": "Lokalizacja super - wchodzisz do Auchan, skręcasz w prawo i już. Lody świderki pistacjowe to mój osobisty rekord: trzy porcje z rzędu i żadnego żalu."
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "src": "/swiderki-w-kubkach.png",
+      "alt": "Kubki lodów włoskich American Ice Dream dostępne w lodziarni Katowice Auchan",
+      "caption": "Firmowe kubki - waniliowy, czekoladowy, truskawkowy",
+      "placeholder": true
+    },
+    {
+      "src": "/swiderki-w-rozkach.png",
+      "alt": "Świderki czekoladowo-waniliowe i tęczowe w rożkach waflowych w Katowicach",
+      "caption": "Świderki w rożku - klasyk i tęczowy",
+      "placeholder": true
+    },
+    {
+      "src": "/lody-deser.png",
+      "alt": "Puchar deserowy z gałkami lodów, bitą śmietaną i wafelkiem - lodziarnia Katowice",
+      "caption": "Puchar „Śląska Zamieć”",
+      "placeholder": true
+    },
+    {
+      "src": "/rurki-z-bitasmietana.png",
+      "alt": "Chrupiące rurki z bitą śmietaną posypane kakao - American Ice Dream Katowice",
+      "caption": "Rurki z bitą śmietaną na żywo",
+      "placeholder": true
+    },
+    {
+      "src": "/kawa-mrozona.png",
+      "alt": "Mrożona kawa karmelowa na wynos z lodziarni Katowice Auchan",
+      "caption": "Kawa mrożona karmelowa",
+      "placeholder": true
+    },
+    {
+      "src": "/swiderki-w-kubkach.png",
+      "alt": "Nasza strefa w foodcourt Auchan - lodziarnia American Ice Dream Katowice",
+      "caption": "Nasza strefa w Auchan (placeholder)",
+      "placeholder": true
+    }
+  ],
+  "faqs": [
+    {
+      "id": "kat-faq-godziny",
+      "question": "W jakich godzinach działa lodziarnia w Katowicach?",
+      "answer": "Od poniedziałku do soboty jesteśmy otwarci w godzinach 9:00–21:00. W niedziele handlowe zapraszamy od 9:30 do 19:00."
+    },
+    {
+      "id": "kat-faq-parking",
+      "question": "Czy jest parking przy Auchan Katowice?",
+      "answer": "Tak - Centrum Handlowe Auchan Katowice dysponuje bezpłatnym parkingiem dla klientów z ponad 400 miejscami, w tym miejscami dla osób z niepełnosprawnościami."
+    },
+    {
+      "id": "kat-faq-dojazd",
+      "question": "Jak dojechać do Auchan Katowice?",
+      "answer": "Centrum leży przy Trasie Nikodema i Józefa Renców 30 w Katowicach, z wygodnym dojazdem od DTŚ i DK86. Komunikacja miejska ZTM Katowice obsługuje przystanek w pobliżu centrum."
+    },
+    {
+      "id": "kat-faq-oferta",
+      "question": "Jakie lody są dostępne w American Ice Dream w Katowicach?",
+      "answer": "Serwujemy lody włoskie, świderki, granity owocowe, desery lodowe, rurki z bitą śmietaną i kawę mrożoną. Receptura niezmieniona od 2006 roku."
+    }
+  ],
+  "seo": {
+    "title": "Lodziarnia Katowice – American Ice Dream Auchan",
+    "description": "Lody włoskie i świderki w Auchan Katowice, Trasa Renców 30. Otwarte pn.–sob. 9–21, niedziele handlowe 9:30–19. Lodziarnia z wieloletnią tradycją w Katowicach.",
+    "keywords": [
+      "lodziarnia Katowice",
+      "lody włoskie Katowice",
+      "świderki Katowice",
+      "lody Katowice Auchan",
+      "Auchan Trasa Renców",
+      "American Ice Dream Katowice"
+    ],
+    "headline": "Lodziarnia Katowice – American Ice Dream Auchan",
+    "lead": "Trasa Nikodema i Józefa Renców 30 - kremowe lody włoskie, świderki i desery w Auchan Katowice."
+  }
+}

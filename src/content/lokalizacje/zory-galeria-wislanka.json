@@ -1,0 +1,93 @@
+{
+  "locationName": "Żory Galeria Wiślanka",
+  "address": {
+    "city": "Żory",
+    "venue": "Galeria Wiślanka",
+    "street": "Katowicka 10",
+    "postal": "44-240",
+    "googleBusinessId": "11688138271647220578",
+    "coordinates": {
+      "lat": "50.0439",
+      "lng": "18.7025"
+    }
+  },
+  "hours": {
+    "weekdays": "9:00–21:00",
+    "sunday": "12:00–20:00"
+  },
+  "shortDescription": "American Ice Dream w Galerii Wiślanka - jedyne centrum handlowe w Żorach, lody włoskie i świderki.",
+  "hero": {
+    "image": {
+      "src": "/lokalizacje/zory-galeria-wislanka/hero/image/src.jpg",
+      "alt": "Lodziarnia American Ice Dream w Galerii Wiślanka w Żorach"
+    },
+    "subheading": "Jedyne centrum handlowe w Żorach",
+    "badge": "Galeria Wiślanka · od 2020"
+  },
+  "neighborhood": "Przy skrzyżowaniu DK81 z DW935, centrum handlowo-rozrywkowe Galeria Wiślanka - pierwsze i jedyne centrum handlowe w Żorach, wyróżnione tytułem najlepszego centrum handlowego średniej wielkości w CEE (2020)",
+  "transport": {
+    "car": "Galeria Wiślanka leży przy skrzyżowaniu drogi krajowej DK81 (zwanej popularnie 'Wiślanką') z drogą wojewódzką DW935, która prowadzi do autostrady A1. W zasięgu 30 minut mieszka ponad 750 000 osób.",
+    "public": "Przy Galerii Wiślanka znajduje się przystanek bezpłatnej komunikacji miejskiej obsługującej Żory. Sprawdź aktualny rozkład w kasach centrum lub na stronie miasta Żory.",
+    "parking": "Galeria Wiślanka dysponuje 600 bezpłatnymi miejscami parkingowymi, zapewniającymi wygodny dojazd mieszkańcom i gościom z okolicznych miejscowości.",
+    "accessibility": "Nowoczesne centrum na jednym poziomie handlowym z szerokim dostępem dla wózków dziecięcych i inwalidzkich. Wejścia automatyczne, windy, toalety dostępne w strefie gastronomicznej."
+  },
+  "description": {
+    "subheading": "Lodziarnia w Żorach – Galeria Wiślanka",
+    "lead": "American Ice Dream w Galerii Wiślanka w Żorach - ul. Katowicka 10. Lody włoskie, świderki, granity i desery lodowe w jedynym centrum handlowym w Żorach.",
+    "body": [
+      "Galeria Wiślanka to nowoczesne centrum handlowo-rozrywkowe w Żorach, nagrodzone w 2020 roku tytułem najlepszego centrum handlowego średniej wielkości w Europie Środkowo-Wschodniej. Znajdziesz tu ponad 80 sklepów, kino Helios i szeroką ofertę gastronomiczną - a w niej nasz punkt American Ice Dream.",
+      "Serwujemy lody włoskie, lody świderki, orzeźwiające granity owocowe, rurki z bitą śmietaną oraz kawę mrożoną. Wszystko z dbałością o jakość, według sprawdzonej receptury.",
+      "Centrum leży bezpośrednio przy DK81 i drodze do autostrady A1 - w jego zasięgu mieszka ponad 750 000 osób. Doskonała lokalizacja i 600 bezpłatnych miejsc parkingowych sprawiają, że dojazd jest wygodny zarówno dla mieszkańców Żor, jak i gości z Rybnika, Jastrzębia-Zdroju czy Wodzisławia Śląskiego."
+    ]
+  },
+  "lodojady": {
+    "intro": "W Galerii Wiślanka zbierasz pieczątki w aplikacji Embargo - co 8. porcja jest na nasz koszt. Zeskanuj kod QR, żeby dołączyć do Lodojadów.",
+    "qr": {
+      "url": "https://embargo.app/loyalty/american-ice-dream?loc=zory-wislanka",
+      "alt": "Kod QR do programu Lodojady - American Ice Dream Żory Galeria Wiślanka"
+    }
+  },
+  "reviews": {
+    "aggregate": {
+      "rating": 5,
+      "count": 0
+    },
+    "items": []
+  },
+  "gallery": [],
+  "faqs": [
+    {
+      "id": "zwis-faq-godziny",
+      "question": "Kiedy jest otwarta lodziarnia w Galerii Wiślanka?",
+      "answer": "Od poniedziałku do soboty jesteśmy otwarci w godzinach 9:00–21:00. W niedziele handlowe zapraszamy od 12:00 do 20:00."
+    },
+    {
+      "id": "zwis-faq-parking",
+      "question": "Ile miejsc parkingowych ma Galeria Wiślanka?",
+      "answer": "Galeria Wiślanka dysponuje 600 bezpłatnymi miejscami parkingowymi. Parking jest dostępny bezpośrednio przy wejściach do centrum."
+    },
+    {
+      "id": "zwis-faq-dojazd",
+      "question": "Jak dojechać do Galerii Wiślanka w Żorach?",
+      "answer": "Galeria leży przy ul. Katowickiej 10 w Żorach, przy skrzyżowaniu DK81 z DW935. Droga wojewódzka DW935 prowadzi bezpośrednio do autostrady A1. Przy galerii znajduje się przystanek miejskiej komunikacji bezpłatnej."
+    },
+    {
+      "id": "zwis-faq-oferta",
+      "question": "Co serwuje American Ice Dream w Galerii Wiślanka?",
+      "answer": "Lody włoskie, świderki, granity owocowe, desery lodowe, rurki z bitą śmietaną i kawę mrożoną. Sezonowe smaki i różnorodne dodatki dostępne na miejscu."
+    }
+  ],
+  "seo": {
+    "title": "Lodziarnia Żory – American Ice Dream Galeria Wiślanka",
+    "description": "Lody włoskie, świderki i granity w Galerii Wiślanka w Żorach, ul. Katowicka 10. Otwarte pn.–sob. 9–21. Jedyne centrum handlowe w Żorach z lodziarniami American Ice Dream.",
+    "keywords": [
+      "lodziarnia Żory",
+      "Galeria Wiślanka lody",
+      "American Ice Dream Żory",
+      "lody Katowicka Żory",
+      "centrum handlowe Żory"
+    ],
+    "headline": "Lodziarnia Żory – American Ice Dream Galeria Wiślanka",
+    "lead": "Ul. Katowicka 10 - lody włoskie i świderki w jedynej galerii handlowej w Żorach."
+  }
+}

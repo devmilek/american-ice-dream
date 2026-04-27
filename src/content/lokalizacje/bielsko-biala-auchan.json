@@ -1,0 +1,86 @@
+{
+  "locationName": "Bielsko-Biała Auchan",
+  "address": {
+    "city": "Bielsko-Biała",
+    "venue": "Auchan",
+    "street": "Bohaterów Monte Cassino 421",
+    "postal": "43-300",
+    "googleBusinessId": "7170611933407802648",
+    "coordinates": {
+      "lat": "49.8329075",
+      "lng": "18.9828639"
+    }
+  },
+  "hours": {
+    "weekdays": "9:00–21:00",
+    "sunday": "9:30–20:00"
+  },
+  "shortDescription": "American Ice Dream w Auchan Bielsko-Biała - lody włoskie, świderki i granity od 18 lat.",
+  "hero": {
+    "image": {
+      "src": "/lokalizacje/bielsko-biala-auchan/hero/image/src.jpg",
+      "alt": "Lodziarnia American Ice Dream w Auchan Bielsko-Biała - lody włoskie i świderki"
+    },
+    "subheading": "Lody włoskie z 18-letnią historią",
+    "badge": "Auchan · od 2006"
+  },
+  "neighborhood": "Dzielnica Stare Bielsko, przy ul. Bohaterów Monte Cassino - strefa gastronomiczna hipermarketu Auchan Bielsko-Biała",
+  "transport": {
+    "car": "Auchan Bielsko-Biała położony jest przy ul. Bohaterów Monte Cassino, z wygodnym dojazdem od strony DK1 oraz obwodnicy miasta. Centrum osiągniecie w ok. 10 minut z centrum Bielska-Białej.",
+    "public": "Komunikacja miejska MZK Bielsko-Biała: kilka linii autobusowych obsługuje przystanek w pobliżu centrum Auchan przy ul. Bohaterów Monte Cassino. Sprawdź aktualny rozkład na mzkbielsko.pl.",
+    "parking": "Bezpłatny, rozległy parking przy hipermarkecie Auchan - setki miejsc, w tym miejsca dla osób z niepełnosprawnościami i stref rodzinnych.",
+    "accessibility": "Obiekt na poziomie parteru z szerokim dostępem dla wózków dziecięcych i inwalidzkich. Wejścia automatyczne, dostęp do wind wewnątrz centrum."
+  },
+  "description": {
+    "subheading": "Lodziarnia w Bielsku-Białej z 18-letnią historią",
+    "lead": "American Ice Dream w Auchan Bielsko-Biała - lody włoskie, świderki i granity od 18 lat. Ul. Bohaterów Monte Cassino 421. Otwarte od 9:00 do 21:00, od poniedziałku do soboty.",
+    "body": [
+      "Nasza lodziarnia w Bielsku-Białej to jeden z pierwszych punktów American Ice Dream - od 18 lat serwujemy tu lody według niezmienionej receptury, która zdobyła serca kolejnych pokoleń klientów z Bielska-Białej i okolicznych miejscowości.",
+      "W menu znajdziesz aksamitne lody włoskie, delikatne świderki w wafelkach, orzeźwiające granity owocowe, rurki z bitą śmietaną oraz kawę mrożoną. Wszystko przygotowywane na miejscu, z dbałością o jakość składników.",
+      "Lodziarnia mieści się w strefie handlowej Auchan Bielsko-Biała - idealnie przy okazji zakupów lub jako cel sam w sobie dla całej rodziny."
+    ]
+  },
+  "lodojady": {
+    "intro": "W Auchan Bielsko-Biała zbierasz pieczątki w aplikacji Embargo - co 8. porcja jest na nasz koszt. Zeskanuj kod QR, żeby dołączyć do Lodojadów.",
+    "qr": {
+      "url": "https://embargo.app/loyalty/american-ice-dream?loc=bielsko-biala",
+      "alt": "Kod QR do programu Lodojady - American Ice Dream Bielsko-Biała Auchan"
+    }
+  },
+  "reviews": {
+    "aggregate": {
+      "rating": 5,
+      "count": 0
+    },
+    "items": []
+  },
+  "gallery": [],
+  "faqs": [
+    {
+      "id": "bb-faq-godziny",
+      "question": "W jakich godzinach otwarta jest lodziarnia w Bielsku-Białej?",
+      "answer": "Od poniedziałku do soboty jesteśmy otwarci w godzinach 9:00–21:00. W niedziele handlowe zapraszamy od 9:30 do 20:00."
+    },
+    {
+      "id": "bb-faq-parking",
+      "question": "Czy przy Auchan Bielsko-Biała jest darmowy parking?",
+      "answer": "Tak - Auchan Bielsko-Biała dysponuje bezpłatnym parkingiem dla klientów z dużą liczbą miejsc, w tym miejscami dla osób z niepełnosprawnościami."
+    },
+    {
+      "id": "bb-faq-oferta",
+      "question": "Co serwuje American Ice Dream w Bielsku-Białej?",
+      "answer": "Lody włoskie, lody świderki, desery lodowe, granity owocowe, rurki z bitą śmietaną i kawę mrożoną. Receptura niezmieniona od 2006 roku."
+    },
+    {
+      "id": "bb-faq-historia",
+      "question": "Od kiedy działa lodziarnia w Bielsku-Białej?",
+      "answer": "Punkt w Auchan Bielsko-Biała działa od 18 lat - od początków sieci American Ice Dream. To jeden z naszych najdłużej działających punktów."
+    }
+  ],
+  "seo": {
+    "title": "Lodziarnia Bielsko-Biała – American Ice Dream Auchan",
+    "description": "Lody włoskie i świderki w Auchan Bielsko-Biała, ul. Bohaterów Monte Cassino 421. Otwarte pn.–sob. 9–21. 18 lat tradycji i niezmieniona receptura od 2006 roku.",
+    "headline": "Lodziarnia Bielsko-Biała – American Ice Dream Auchan",
+    "lead": "Lody włoskie i świderki przy ul. Bohaterów Monte Cassino 421 - punkt z 18-letnią historią."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "locationName": "Mikołów Auchan",
+  "address": {
+    "city": "Mikołów",
+    "venue": "Auchan",
+    "street": "Gliwicka 3",
+    "postal": "43-190",
+    "coordinates": {
+      "lat": "50.1786312",
+      "lng": "18.8837964"
+    }
+  },
+  "hours": {
+    "weekdays": "9:00 – 21:00",
+    "sunday": "9:30 – 19:30"
+  },
+  "shortDescription": "Poczuj smak wyjątkowych specjałów w miejscu, gdzie tradycja łączy się z jakością.",
+  "hero": {
+    "image": {
+      "src": "/lokalizacje/mikolow-auchan/hero/image/src.jpg"
+    }
+  },
+  "transport": {},
+  "description": {
+    "body": []
+  },
+  "lodojady": {
+    "qr": {}
+  },
+  "reviews": {
+    "aggregate": {},
+    "items": []
+  },
+  "gallery": [],
+  "faqs": [],
+  "seo": {
+    "keywords": []
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "locationName": "Wrocław Aleja Bielany",
+  "address": {
+    "city": "Bielany Wrocławskie",
+    "venue": "Aleja Bielany",
+    "street": "Czekoladowa 7-9",
+    "postal": "55-040",
+    "googleBusinessId": "0xb35dcdccabdc0a54",
+    "coordinates": {
+      "lat": "51.0489507",
+      "lng": "16.9589376"
+    }
+  },
+  "hours": {
+    "weekdays": "10:00–21:00",
+    "sunday": "10:00–20:00"
+  },
+  "shortDescription": "Lodziarnia American Ice Dream we Wrocławiu – w sercu Alei Bielany, największego centrum handlowego w Polsce.",
+  "hero": {
+    "image": {
+      "src": "/lokalizacje/wroclaw-aleja-bielany/hero/image/src.jpg",
+      "alt": "Lodziarnia American Ice Dream w Alei Bielany – lody włoskie, świderki i granity"
+    },
+    "subheading": "W największym centrum handlowym w Polsce",
+    "badge": "Aleja Bielany · od 2006"
+  },
+  "neighborhood": "Bielany Wrocławskie, przy granicy Wrocławia - największe centrum handlowe w Polsce (145 000 m²), strefa gastronomiczna Alei Bielany",
+  "transport": {
+    "car": "Doskonały dojazd z każdej dzielnicy Wrocławia oraz miast ościennych dzięki bliskości autostrady A4, Autostradowej Obwodnicy Wrocławia oraz dróg krajowych DK5, DK8 i DK35.",
+    "public": "Autobusy miejskie MPK Wrocław: linia 133 (przystanek 'Centrum Handlowe Aleja Bielany') oraz linie 512, 522, 852, 852a, 882, 892a (przystanek 'Bielany Wrocławskie – Centrum Handlowe'). Przy wejściu wschodnim działa stacja Wrocławskiego Roweru Miejskiego.",
+    "parking": "Parking zewnętrzny na łącznie 4 700 bezpłatnych miejsc przed budynkami centrum, w tym miejsca dla osób z niepełnosprawnościami oraz sekcje rodzinne.",
+    "accessibility": "Centrum na kilku poziomach handlowych z windami i ruchomymi schodami. Szerokie wejścia automatyczne, wózki dziecięce i inwalidzkie bez przeszkód. Toalety dostępne w strefie gastronomicznej."
+  },
+  "description": {
+    "subheading": "Lodziarnia w największym centrum handlowym w Polsce",
+    "lead": "Lodziarnia American Ice Dream we Wrocławiu – w sercu Alei Bielany, największego centrum handlowego w Polsce. Lody włoskie, świderki, granity i desery lodowe dostępne od poniedziałku do soboty w godzinach 10:00–21:00.",
+    "body": [
+      "Aleja Bielany to ponad 200 sklepów, kino Helios, Fitness Academy i największy sklep IKEA w Polsce - a tuż obok nich nasza lodziarnia, która od lat jest stałym punktem dla mieszkańców Wrocławia i gości przyjeżdżających z całego Dolnego Śląska.",
+      "Serwujemy aksamitne lody włoskie i delikatne świderki według niezmienionej od 2006 roku receptury - gęstej, kremowej, o intensywnym smaku. Do każdej porcji dobieramy sezonowe dodatki: sosy owocowe, posypki i chrupiące akcenty. Oferujemy też orzeźwiające granity owocowe na ciepłe dni oraz kawę mrożoną.",
+      "Nasz punkt jest idealny na chwilę odpoczynku po zakupach - czy to sobotnich z rodziną, czy szybkiej przerwy w tygodniu. Znajdziesz nas w strefie gastronomicznej centrum, tuż przy jednym z głównych wejść."
+    ]
+  },
+  "lodojady": {
+    "intro": "W Alei Bielany zbierasz pieczątki w aplikacji Embargo - co 8. porcja jest na nasz koszt. Zeskanuj kod QR, żeby dołączyć do Lodojadów.",
+    "qr": {
+      "url": "https://embargo.app/loyalty/american-ice-dream?loc=wroclaw-bielany",
+      "alt": "Kod QR do programu Lodojady - American Ice Dream Wrocław Aleja Bielany"
+    }
+  },
+  "reviews": {
+    "aggregate": {
+      "rating": 5,
+      "count": 0
+    },
+    "items": []
+  },
+  "gallery": [],
+  "faqs": [
+    {
+      "id": "wro-faq-dojazd",
+      "question": "Jak dojechać do lodziarni American Ice Dream w Alei Bielany?",
+      "answer": "Aleja Bielany leży przy autostradzie A4 i Autostradowej Obwodnicy Wrocławia - dojazd z centrum Wrocławia zajmuje ok. 15–20 minut. Autobusami MPK dojedziecie liniami 133, 512, 522, 852 lub 882 do przystanków przy centrum. Na miejscu czeka 4 700 bezpłatnych miejsc parkingowych."
+    },
+    {
+      "id": "wro-faq-godziny",
+      "question": "W jakich godzinach jest otwarta lodziarnia we Wrocławiu?",
+      "answer": "Od poniedziałku do soboty jesteśmy otwarci w godzinach 10:00–21:00. W niedziele handlowe zapraszamy w godzinach 10:00–20:00."
+    },
+    {
+      "id": "wro-faq-parking",
+      "question": "Czy jest parking przy Alei Bielany?",
+      "answer": "Tak - Aleja Bielany dysponuje bezpłatnym parkingiem zewnętrznym na łącznie 4 700 miejsc, rozłożonych na kilku parkingach przy różnych wejściach do centrum. Znajdziesz tu również miejsca dla osób z niepełnosprawnościami oraz sekcje rodzinne."
+    },
+    {
+      "id": "wro-faq-oferta",
+      "question": "Co mogę zamówić w American Ice Dream we Wrocławiu?",
+      "answer": "Serwujemy lody włoskie, lody świderki, desery lodowe, granity owocowe, rurki z bitą śmietaną oraz kawę mrożoną. Dostępne są różne smaki i dodatki. Zapytaj obsługę o sezonową ofertę."
+    }
+  ],
+  "seo": {
+    "title": "Lodziarnia Wrocław – American Ice Dream Aleja Bielany",
+    "description": "Lody włoskie, świderki i granity w Alei Bielany we Wrocławiu. Otwarte pn.–sob. 10–21. Największe centrum handlowe w Polsce – znajdź nas w strefie gastronomicznej.",
+    "keywords": [
+      "lodziarnia Wrocław",
+      "lody Aleja Bielany",
+      "American Ice Dream Wrocław",
+      "lody włoskie Bielany Wrocławskie",
+      "centrum handlowe Aleja Bielany lody"
+    ],
+    "headline": "Lodziarnia Wrocław – American Ice Dream Aleja Bielany",
+    "lead": "Lody włoskie, świderki i granity w strefie gastronomicznej Alei Bielany - od 2006 roku."
+  }
+}
