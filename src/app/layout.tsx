@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Fraunces, Manrope, Caveat } from "next/font/google";
+import { Caveat, Fraunces, Manrope } from "next/font/google";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -51,6 +51,12 @@ export default function RootLayout({
 			lang="pl"
 			className={`${fraunces.variable} ${manrope.variable} ${caveat.variable} h-full antialiased`}
 		>
+			<head>
+				<meta
+					name="ahrefs-site-verification"
+					content="51dfc671a31a6ac9f1a7b0193db1530249ab704a639496f29972a964163c2d63"
+				></meta>
+			</head>
 			<body className="flex min-h-full flex-col bg-cream text-ink font-sans">
 				<div className="grain-overlay" aria-hidden />
 				{children}
