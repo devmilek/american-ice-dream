@@ -8,9 +8,9 @@ import { type Review, reviews } from "@/lib/data/reviews";
 import { FiveStars } from "../icons";
 
 const AVATAR_TONES: Record<Review["avatarTone"], string> = {
-	a: "bg-gradient-to-br from-[#3cb6e3] to-[#1f8ab2]",
-	b: "bg-gradient-to-br from-[#c19a5b] to-[#9d7a3e]",
-	c: "bg-gradient-to-br from-[#e06b6b] to-[#a83e3e]",
+	a: "bg-linear-to-br from-sky to-sky-deep",
+	b: "bg-linear-to-br from-gold to-gold-deep",
+	c: "bg-linear-to-br from-rose to-[#a83e3e]",
 };
 
 export function Reviews() {
@@ -52,7 +52,7 @@ export function Reviews() {
 function ReviewCard({ review }: { review: Review }) {
 	return (
 		<figure
-			className="relative m-0 rounded-[28px] border border-navy/8 bg-cream p-8 transition-transform duration-300 hover:-translate-y-1"
+			className="relative m-0 rounded-lg border border-navy/8 bg-cream p-8 transition-transform duration-300 hover:-translate-y-1"
 			itemScope
 			itemType="https://schema.org/Review"
 		>
@@ -64,7 +64,7 @@ function ReviewCard({ review }: { review: Review }) {
 			</span>
 			<FiveStars className="mb-4.5 flex gap-0.5" />
 			<blockquote
-				className="mb-6 m-0 font-display text-[1.125rem] italic leading-[1.5] text-navy"
+				className="mb-6 m-0 font-display text-[1.125rem] italic leading-normal text-navy"
 				itemProp="reviewBody"
 			>
 				{review.quote}

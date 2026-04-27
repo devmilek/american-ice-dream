@@ -25,7 +25,7 @@ export async function Footer() {
 	const locations = await getLocationsData();
 	return (
 		<footer className="relative overflow-hidden bg-navy pt-20 text-cream/75">
-			<div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-soft/50 to-transparent" />
+			<div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-gold-soft/50 to-transparent" />
 
 			<div className="container-page grid grid-cols-[1.4fr_1fr_1fr_1.1fr] gap-10 pb-15 max-lg:grid-cols-2 max-sm:grid-cols-1">
 				<div>

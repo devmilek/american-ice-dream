@@ -46,10 +46,10 @@ export function About() {
 						/>
 					</div>
 
-					<span className="absolute right-[-8%] top-[8%] rotate-[8deg] rounded-full border border-gold-soft bg-paper px-4.5 py-3 font-script text-xl text-navy shadow-[0_8px_24px_rgba(15,45,92,0.07)] max-sm:right-0 max-sm:top-2 max-sm:rotate-[6deg] max-sm:px-3 max-sm:py-1.5 max-sm:text-base">
+					<span className="absolute right-[-8%] top-[8%] rotate-[8deg] rounded-full border border-gold-soft bg-paper px-4.5 py-3 font-script text-xl text-navy shadow-soft max-sm:right-0 max-sm:top-2 max-sm:rotate-6 max-sm:px-3 max-sm:py-1.5 max-sm:text-base">
 						rodzinna lodziarnia
 					</span>
-					<span className="absolute bottom-[8%] left-[-10%] -rotate-[6deg] rounded-full border border-gold-soft bg-paper px-4.5 py-3 font-script text-xl text-navy shadow-[0_8px_24px_rgba(15,45,92,0.07)] max-sm:bottom-4 max-sm:left-0 max-sm:-rotate-[4deg] max-sm:px-3 max-sm:py-1.5 max-sm:text-base">
+					<span className="absolute bottom-[8%] left-[-10%] -rotate-6 rounded-full border border-gold-soft bg-paper px-4.5 py-3 font-script text-xl text-navy shadow-soft max-sm:bottom-4 max-sm:left-0 max-sm:rotate-[-4deg] max-sm:px-3 max-sm:py-1.5 max-sm:text-base">
 						18 lat doświadczenia
 					</span>
 				</div>

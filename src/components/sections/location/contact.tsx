@@ -43,7 +43,7 @@ export function LocationContact({ details }: { details: LocalizationEntry }) {
 				</div>
 
 				<div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-					<div className="flex flex-col gap-5 rounded-[28px] border border-navy/8 bg-paper p-7 shadow-[0_8px_24px_rgba(15,45,92,0.05)]">
+					<div className="flex flex-col gap-5 rounded-lg border border-navy/8 bg-paper p-7 shadow-[0_8px_24px_rgba(15,45,92,0.05)]">
 						<InfoRow
 							icon={<MapPinIcon className="h-4 w-4 text-gold" />}
 							label="Adres"
@@ -99,7 +99,7 @@ export function LocationContact({ details }: { details: LocalizationEntry }) {
 						</a>
 					</div>
 
-					<div className="relative h-[420px] overflow-hidden rounded-[28px] border border-navy/14 bg-[#eee4d1] shadow-[0_30px_70px_-30px_rgba(15,45,92,0.28)] lg:h-auto lg:min-h-[520px]">
+					<div className="relative h-[420px] overflow-hidden rounded-lg border border-navy/14 bg-[#eee4d1] shadow-deep lg:h-auto lg:min-h-[520px]">
 						<SingleLocationMap details={details} zoom={15} />
 					</div>
 				</div>

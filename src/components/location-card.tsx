@@ -14,7 +14,7 @@ export function LocationCard({
 
 	return (
 		<article
-			className="group relative flex h-full flex-col overflow-hidden rounded-[28px] border border-navy/8 bg-paper p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold"
+			className="group relative flex h-full flex-col overflow-hidden rounded-lg border border-navy/8 bg-paper p-7 transition-all duration-300 hover:-translate-y-1 hover:border-gold"
 			itemScope
 			itemType="https://schema.org/LocalBusiness"
 		>

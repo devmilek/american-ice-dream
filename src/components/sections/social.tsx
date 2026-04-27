@@ -32,7 +32,7 @@ export async function Social() {
 					<SocialButton
 						label={`TikTok · 150 obserwujących`}
 						handle={contact.socialMedia.tiktok.username}
-						iconClassName="text-[#000]"
+						iconClassName="text-black"
 						Icon={TikTok}
 						href={contact.socialMedia.tiktok.url}
 					/>
@@ -72,7 +72,7 @@ function SocialButton({
 	return (
 		<a
 			href={href}
-			className="flex items-center gap-4 rounded-[18px] border border-navy/10 bg-paper px-6 py-4 shadow-[0_8px_24px_rgba(15,45,92,0.07)] transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:shadow-[0_30px_70px_-30px_rgba(15,45,92,0.28)]"
+			className="flex items-center gap-4 rounded-md border border-navy/10 bg-paper px-6 py-4 shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-gold hover:shadow-deep"
 		>
 			<Icon className={`h-7 w-7 ${iconClassName}`} />
 			<span className="flex flex-col items-start leading-tight">

@@ -24,10 +24,10 @@ export function MobileMenu() {
 			</Dialog.Trigger>
 
 			<Dialog.Portal>
-				<Dialog.Overlay className="fixed inset-0 z-[60] bg-navy/55 backdrop-blur-sm data-[state=open]:animate-fade-in data-[state=closed]:animate-fade-out" />
+				<Dialog.Overlay className="fixed inset-0 z-60 bg-navy/55 backdrop-blur-sm data-[state=open]:animate-fade-in data-[state=closed]:animate-fade-out" />
 				<Dialog.Content
 					aria-describedby={undefined}
-					className="fixed inset-y-0 right-0 z-[70] flex w-[min(22rem,92vw)] flex-col bg-cream shadow-[0_30px_80px_-20px_rgba(15,45,92,0.35)] data-[state=open]:animate-slide-in-right data-[state=closed]:animate-slide-out-right"
+					className="fixed inset-y-0 right-0 z-70 flex w-[min(22rem,92vw)] flex-col bg-cream shadow-[0_30px_80px_-20px_rgba(15,45,92,0.35)] data-[state=open]:animate-slide-in-right data-[state=closed]:animate-slide-out-right"
 				>
 					<div className="flex items-center justify-between border-b border-navy/8 px-6 py-4">
 						<Dialog.Title className="font-display text-xl font-semibold text-navy">

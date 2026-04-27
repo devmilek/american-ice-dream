@@ -23,7 +23,7 @@ export async function Locations() {
 				<div className="relative mb-14 h-[560px] overflow-hidden rounded-xl border border-navy/14 bg-[#eee4d1] shadow-2xl/10 max-lg:h-[460px] max-sm:h-[380px]">
 					<LocationsMap />
 
-					<div className="pointer-events-none absolute left-5 top-5 z-500 flex items-center gap-2.5 rounded-full bg-paper px-4 py-2.5 text-[12.5px] font-medium text-navy shadow-[0_8px_24px_rgba(15,45,92,0.07)]">
+					<div className="pointer-events-none absolute left-5 top-5 z-500 flex items-center gap-2.5 rounded-full bg-paper px-4 py-2.5 text-[12.5px] font-medium text-navy shadow-soft">
 						<SwirlDot /> {details.length} lodziarni
 					</div>
 				</div>

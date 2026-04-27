@@ -410,7 +410,7 @@ async function FinalCtaSection() {
 							<Eyebrow light>Zacznij zbierać pieczątki</Eyebrow>
 							<h2
 								id="loy-cta-title"
-								className="mt-4 mb-5 font-display text-white text-[clamp(2rem,4vw+0.6rem,3.5rem)] leading-[1.04] tracking-[-0.025em]"
+								className="mt-4 mb-5 font-display text-white text-[clamp(2rem,4vw+0.6rem,3.5rem)] leading-[1.04] tracking-tight"
 							>
 								Trzy minuty setupu,{" "}
 								<ScriptAccent tone="gold-soft">

@@ -52,7 +52,7 @@ export function LocationGallery({ details }: { details: LocalizationEntry }) {
 									alt={img.alt}
 									fill
 									sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 24vw"
-									className="object-contain p-5 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.04]"
+									className="object-contain p-5 transition-transform duration-500 ease-silk group-hover:scale-[1.04]"
 									loading={i < 2 ? "eager" : "lazy"}
 								/>
 								{img.caption && (

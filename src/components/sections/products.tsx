@@ -16,7 +16,7 @@ export function Products() {
 			}}
 			aria-labelledby="products-title"
 		>
-			<div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/40 to-transparent" />
+			<div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-gold/40 to-transparent" />
 			<div className="container-page">
 				<SectionHeading
 					eyebrow="Nasza karta"
@@ -52,15 +52,15 @@ function ProductCard({ product }: { product: Product }) {
 	return (
 		<article
 			className={cn(
-				"group relative flex flex-col overflow-hidden rounded-[28px] border border-navy/8 bg-paper transition-[transform,box-shadow] duration-400 ease-[cubic-bezier(0.22,1,0.36,1)]",
-				"hover:-translate-y-2 hover:shadow-[0_30px_70px_-30px_rgba(15,45,92,0.28)]",
+				"group relative flex flex-col overflow-hidden rounded-lg border border-navy/8 bg-paper transition-[transform,box-shadow] duration-400 ease-silk",
+				"hover:-translate-y-2 hover:shadow-deep",
 				"lg:col-span-2",
 				// featured && "sm:col-span-2 lg:col-span-4 lg:row-span-2",
 			)}
 			style={{ "--accent": accent } as CSSProperties}
 		>
 			<span
-				className="absolute left-1/2 top-0 h-[3px] w-0 -translate-x-1/2 rounded-b-[3px] transition-[width] duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:w-full"
+				className="absolute left-1/2 top-0 h-[3px] w-0 -translate-x-1/2 rounded-b-[3px] transition-[width] duration-500 ease-silk group-hover:w-full"
 				style={{ background: accent }}
 			/>
 
@@ -88,7 +88,7 @@ function ProductCard({ product }: { product: Product }) {
 								? "(max-width: 640px) 92vw, (max-width: 1024px) 92vw, 46vw"
 								: "(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 24vw"
 						}
-						className="object-contain transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-2 group-hover:-rotate-2 drop-shadow-[0_18px_30px_rgba(15,45,92,0.18)]"
+						className="object-contain transition-transform duration-500 ease-silk group-hover:-translate-y-2 group-hover:-rotate-2 drop-shadow-[0_18px_30px_rgba(15,45,92,0.18)]"
 						style={{
 							objectPosition: photo.position ?? "50% 50%",
 							padding: `${photo.padding ?? 1.25}rem`,
@@ -97,7 +97,7 @@ function ProductCard({ product }: { product: Product }) {
 				) : (
 					<Illustration
 						className={cn(
-							"h-auto w-full transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:-translate-y-2 group-hover:-rotate-3",
+							"h-auto w-full transition-transform duration-500 ease-silk group-hover:-translate-y-2 group-hover:-rotate-3",
 							featured ? "max-w-[220px]" : "max-w-[160px]",
 						)}
 					/>

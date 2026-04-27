@@ -92,7 +92,7 @@ export function HeroCone(props: SVGProps<SVGSVGElement>) {
 				/>
 				<ellipse cx="160" cy="220" rx="36" ry="60" fill="url(#shine)" />
 			</g>
-			<g className="[&>*]:origin-center">
+			<g className="*:origin-center">
 				<rect
 					x="60"
 					y="180"

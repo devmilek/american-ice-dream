@@ -79,7 +79,7 @@ export function LocationReviews({ location, details }: Props) {
 
 function AggregateCard({ rating, count }: { rating: number; count: number }) {
 	return (
-		<div className="inline-flex items-center gap-5 rounded-[20px] border border-gold/30 bg-paper px-6 py-4 shadow-[0_8px_24px_rgba(15,45,92,0.07)]">
+		<div className="inline-flex items-center gap-5 rounded-[20px] border border-gold/30 bg-paper px-6 py-4 shadow-soft">
 			<div className="flex flex-col leading-[1.05]">
 				<strong className="font-display text-[2.25rem] text-navy tabular-nums">
 					{rating.toFixed(1)}

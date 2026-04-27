@@ -56,7 +56,7 @@ export function LocationOffer({ location, details }: Props) {
 								>
 									{product.title}
 								</span>
-								<h3 className="mb-2 font-display text-[1.3rem] leading-[1.25] text-navy">
+								<h3 className="mb-2 font-display text-[1.3rem] leading-tight text-navy">
 									{hl.callout.split(" - ")[0] ?? hl.callout}
 								</h3>
 								<p className="text-[14px] leading-[1.55] text-ink-soft">

@@ -75,7 +75,7 @@ export function Hero() {
 						</div>
 
 						<dl
-							className="flex w-fit items-center gap-6 rounded-[18px] border border-navy/8 bg-paper/70 px-6 py-5 backdrop-blur-sm max-md:w-full max-md:justify-between"
+							className="flex w-fit items-center gap-6 rounded-md border border-navy/8 bg-paper/70 px-6 py-5 backdrop-blur-sm max-md:w-full max-md:justify-between"
 							aria-label="Najważniejsze liczby"
 						>
 							<Stat label="lat tradycji" value="18" />
@@ -96,7 +96,7 @@ export function Hero() {
 							aria-hidden
 						/>
 						<div
-							className="relative z-[1] h-[560px] w-[440px] max-lg:h-[440px] max-lg:w-[340px]"
+							className="relative z-1 h-[560px] w-[440px] max-lg:h-[440px] max-lg:w-[340px]"
 							style={{ animation: "var(--animate-float)" }}
 						>
 							<Image
@@ -132,7 +132,7 @@ function Stat({ label, value }: { label: string; value: string }) {
 function ReviewBadge() {
 	return (
 		<div
-			className="absolute bottom-10 left-0 z-[2] flex items-center gap-3.5 rounded-[18px] border border-gold/30 bg-paper px-4.5 py-3.5 shadow-[0_30px_70px_-30px_rgba(15,45,92,0.28)]"
+			className="absolute bottom-10 left-0 z-2 flex items-center gap-3.5 rounded-md border border-gold/30 bg-paper px-4.5 py-3.5 shadow-deep"
 			style={{ animation: "var(--animate-float-rev)" }}
 		>
 			<StarIcon className="flex gap-0.5" />

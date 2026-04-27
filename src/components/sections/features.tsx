@@ -40,7 +40,7 @@ export function Features() {
 					{features.map(({ title, description, Icon }) => (
 						<article
 							key={title}
-							className="group relative rounded-lg border border-navy/8 bg-paper p-9 px-8 transition-all duration-400 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1.5 hover:shadow-[0_8px_24px_rgba(15,45,92,0.07)]"
+							className="group relative rounded-lg border border-navy/8 bg-paper p-9 px-8 transition-all duration-400 ease-silk hover:-translate-y-1.5 hover:shadow-soft"
 						>
 							<div className="pointer-events-none absolute inset-0 rounded-lg bg-linear-to-br from-transparent to-gold/6 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
 							<div className="relative mb-5.5 flex h-16 w-16 items-center justify-center rounded-sm border border-gold-soft bg-cream">

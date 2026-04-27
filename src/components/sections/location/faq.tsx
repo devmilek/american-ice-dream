@@ -51,7 +51,7 @@ export function LocationFaq({ details }: { details: LocalizationEntry }) {
 						<Accordion.Item
 							key={faq.id}
 							value={faq.id}
-							className="group overflow-hidden rounded-[18px] border border-navy/8 bg-paper transition-[border-color,box-shadow] duration-300 data-[state=open]:border-gold-soft data-[state=open]:shadow-[0_8px_24px_rgba(15,45,92,0.07)]"
+							className="group overflow-hidden rounded-md border border-navy/8 bg-paper transition-[border-color,box-shadow] duration-300 data-[state=open]:border-gold-soft data-[state=open]:shadow-soft"
 						>
 							<Accordion.Header>
 								<Accordion.Trigger className="flex w-full cursor-pointer items-center justify-between gap-6 px-7 py-5.5 text-left font-display text-[1.15rem] font-medium leading-[1.35] text-navy focus:outline-none focus-visible:ring-2 focus-visible:ring-sky focus-visible:ring-offset-2">
@@ -79,7 +79,7 @@ function PlusIndicator() {
 	return (
 		<span
 			aria-hidden
-			className="relative flex h-6.5 w-6.5 flex-shrink-0 items-center justify-center rounded-full border border-navy transition-all duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] group-data-[state=open]:rotate-45 group-data-[state=open]:bg-navy"
+			className="relative flex h-6.5 w-6.5 shrink-0 items-center justify-center rounded-full border border-navy transition-all duration-300 ease-silk group-data-[state=open]:rotate-45 group-data-[state=open]:bg-navy"
 		>
 			<span className="absolute h-[1.5px] w-3 bg-navy transition-colors group-data-[state=open]:bg-cream" />
 			<span className="absolute h-3 w-[1.5px] bg-navy transition-colors group-data-[state=open]:bg-cream" />

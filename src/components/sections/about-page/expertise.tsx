@@ -89,7 +89,7 @@ export function AboutExpertise({ data }: { data: AboutPageData }) {
 				</div>
 
 				{/* Porównanie my vs supermarket */}
-				<div className="rounded-[28px] border border-navy/8 bg-cream-soft p-6 lg:p-10">
+				<div className="rounded-lg border border-navy/8 bg-cream-soft p-6 lg:p-10">
 					<div className="mb-8 max-w-2xl">
 						<Eyebrow>Dlaczego smak jest inny</Eyebrow>
 						<h3 className="mt-4 mb-3 font-display text-[clamp(1.6rem,2.4vw+0.8rem,2.25rem)] leading-[1.1] text-navy">
@@ -107,7 +107,7 @@ export function AboutExpertise({ data }: { data: AboutPageData }) {
 						{expertise.comparison.points.map((row) => (
 							<li
 								key={row.us}
-								className="grid gap-3 overflow-hidden rounded-[18px] border border-navy/8 bg-paper md:grid-cols-2"
+								className="grid gap-3 overflow-hidden rounded-md border border-navy/8 bg-paper md:grid-cols-2"
 							>
 								<div className="flex items-start gap-3 border-b border-dashed border-navy/10 p-5 md:border-b-0 md:border-r">
 									<span

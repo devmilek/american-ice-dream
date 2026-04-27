@@ -64,7 +64,7 @@ export function AboutAuthority({ data }: { data: AboutPageData }) {
 								)}
 							</dd>
 							{stat.caption && (
-								<p className="mt-3 text-[13px] leading-[1.5] text-cream/65">
+								<p className="mt-3 text-[13px] leading-normal text-cream/65">
 									{stat.caption}
 								</p>
 							)}
@@ -129,7 +129,7 @@ export function AboutAuthority({ data }: { data: AboutPageData }) {
 										{award.year}
 									</span>
 								)}
-								<h4 className="mb-2 font-display text-[1.1rem] leading-[1.25] text-cream">
+								<h4 className="mb-2 font-display text-[1.1rem] leading-tight text-cream">
 									{award.title}
 								</h4>
 								<p className="text-[13.5px] leading-[1.6] text-cream/70">

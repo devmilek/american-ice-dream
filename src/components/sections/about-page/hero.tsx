@@ -41,7 +41,7 @@ export function AboutHero({ data }: { data: AboutPageData }) {
 
 					<h1
 						id="about-hero-title"
-						className="mt-5 mb-6 font-display font-semibold text-[clamp(2.25rem,4.4vw+0.4rem,4.25rem)] leading-[1.02] tracking-[-0.025em] text-navy"
+						className="mt-5 mb-6 font-display font-semibold text-[clamp(2.25rem,4.4vw+0.4rem,4.25rem)] leading-[1.02] tracking-tight text-navy"
 					>
 						{hero.headline} <ScriptAccent>{hero.headlineScript}</ScriptAccent>
 					</h1>
@@ -57,7 +57,7 @@ export function AboutHero({ data }: { data: AboutPageData }) {
 						{hero.badges.map((badge) => (
 							<li
 								key={badge.label}
-								className="rounded-[18px] border border-navy/8 bg-paper px-4 py-3 shadow-[0_8px_24px_rgba(15,45,92,0.05)]"
+								className="rounded-md border border-navy/8 bg-paper px-4 py-3 shadow-[0_8px_24px_rgba(15,45,92,0.05)]"
 							>
 								<span className="block text-[10.5px] font-semibold uppercase tracking-[0.16em] text-gold-deep">
 									{badge.label}

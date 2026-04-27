@@ -46,7 +46,7 @@ export function LocationHero({ details }: { details: LocalizationEntry }) {
 
 					<h1
 						id="location-hero-title"
-						className="mt-5 mb-5 font-display font-semibold text-[clamp(2.25rem,4.4vw+0.4rem,4.25rem)] leading-[1.02] tracking-[-0.025em] text-navy"
+						className="mt-5 mb-5 font-display font-semibold text-[clamp(2.25rem,4.4vw+0.4rem,4.25rem)] leading-[1.02] tracking-tight text-navy"
 					>
 						Lodziarnia w <ScriptAccent>{details.locationName}</ScriptAccent>
 						<span className="block text-[0.62em] font-normal italic tracking-normal text-navy-soft mt-2">

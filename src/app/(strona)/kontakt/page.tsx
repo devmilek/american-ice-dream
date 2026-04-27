@@ -86,7 +86,7 @@ export default async function KontaktPage() {
 					<Eyebrow>Skontaktuj się z nami</Eyebrow>
 					<h1
 						id="kontakt-title"
-						className="mt-5 mb-5 font-display font-semibold text-[clamp(2.25rem,4.4vw+0.4rem,3.2rem)] leading-[1.02] tracking-[-0.025em] text-navy"
+						className="mt-5 mb-5 font-display font-semibold text-[clamp(2.25rem,4.4vw+0.4rem,3.2rem)] leading-[1.02] tracking-tight text-navy"
 					>
 						Porozmawiajmy -{" "}
 						<ScriptAccent>o lodach, współpracy albo po prostu</ScriptAccent>
@@ -219,14 +219,14 @@ export default async function KontaktPage() {
 										{loc.postal}
 									</address>
 									<dl className="mt-4 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-[12.5px]">
-										<dt className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.1em] text-muted">
+										<dt className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-widest text-muted">
 											<Clock className="h-3 w-3 text-gold" />
 											Pon – Sob
 										</dt>
 										<dd className="text-right font-medium text-navy tabular-nums">
 											{loc.hours.weekdays}
 										</dd>
-										<dt className="text-[11px] font-semibold uppercase tracking-[0.1em] text-muted">
+										<dt className="text-[11px] font-semibold uppercase tracking-widest text-muted">
 											Niedz.&nbsp;handlowe
 										</dt>
 										<dd className="text-right font-medium text-navy tabular-nums">

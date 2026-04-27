@@ -40,7 +40,7 @@ export function LocationDescription({
 						))}
 					</div>
 
-					<div className="grid gap-4 rounded-[28px] border border-navy/8 bg-paper p-6 shadow-[0_8px_24px_rgba(15,45,92,0.05)] sm:grid-cols-2 sm:p-7">
+					<div className="grid gap-4 rounded-lg border border-navy/8 bg-paper p-6 shadow-[0_8px_24px_rgba(15,45,92,0.05)] sm:grid-cols-2 sm:p-7">
 						<TransportRow
 							icon="car"
 							label="Samochód"

@@ -34,7 +34,7 @@ export function AboutExperience({ data }: { data: AboutPageData }) {
 						))}
 
 						<blockquote className="relative mt-8 rounded-[24px] border-l-4 border-gold bg-paper px-6 py-6 text-navy shadow-[0_8px_24px_rgba(15,45,92,0.06)]">
-							<p className="font-display text-[1.15rem] italic leading-[1.5]">
+							<p className="font-display text-[1.15rem] italic leading-normal">
 								„{founder.quote}"
 							</p>
 							<footer className="mt-4 flex items-center gap-3 text-[13px] not-italic">
@@ -61,7 +61,7 @@ export function AboutExperience({ data }: { data: AboutPageData }) {
 								<li key={entry.year} className="relative">
 									<span
 										aria-hidden
-										className={`absolute -left-[42px] top-1.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-gold-soft ${
+										className={`absolute left-[-42px] top-1.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-gold-soft ${
 											entry.highlight
 												? "bg-gold shadow-[0_0_0_4px_rgba(193,154,91,0.18)]"
 												: "bg-paper"

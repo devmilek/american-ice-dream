@@ -35,7 +35,7 @@ export function Navigation() {
 							className="group relative py-1.5 text-[14.5px] font-medium text-navy"
 						>
 							{link.label}
-							<span className="absolute -bottom-0.5 left-1/2 h-0.5 w-0 bg-sky transition-[width,left] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:left-0 group-hover:w-full" />
+							<span className="absolute -bottom-0.5 left-1/2 h-0.5 w-0 bg-sky transition-[width,left] duration-300 ease-silk group-hover:left-0 group-hover:w-full" />
 						</Link>
 					))}
 				</nav>

@@ -77,13 +77,13 @@ export function AboutTrust({ data }: { data: AboutPageData }) {
 								className="group overflow-hidden rounded-[24px] border border-navy/8 bg-paper shadow-[0_8px_24px_rgba(15,45,92,0.05)]"
 							>
 								{member.photo && (
-									<div className="relative aspect-[4/5] overflow-hidden bg-cream-deep/60">
+									<div className="relative aspect-4/5 overflow-hidden bg-cream-deep/60">
 										<Image
 											src={member.photo.src}
 											alt={member.photo.alt}
 											fill
 											sizes="(max-width: 640px) 92vw, (max-width: 1024px) 46vw, 32vw"
-											className="object-contain p-8 transition-transform duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:scale-[1.03]"
+											className="object-contain p-8 transition-transform duration-500 ease-silk group-hover:scale-[1.03]"
 										/>
 										{member.photo.placeholder && (
 											<span className="absolute left-3 top-3 rounded-full bg-paper/90 px-2.5 py-0.5 font-sans text-[9.5px] font-bold uppercase tracking-[0.16em] text-muted">
@@ -151,7 +151,7 @@ export function AboutTrust({ data }: { data: AboutPageData }) {
 				</div>
 
 				{/* Program Lodojady - krótki baner */}
-				<div className="mb-16 overflow-hidden rounded-[28px] border border-dashed border-navy/20 bg-cream-soft p-8 lg:p-10">
+				<div className="mb-16 overflow-hidden rounded-lg border border-dashed border-navy/20 bg-cream-soft p-8 lg:p-10">
 					<div className="flex flex-col items-start gap-6 lg:flex-row lg:items-center lg:justify-between">
 						<div className="max-w-xl">
 							<Eyebrow>Lodojady · program lojalnościowy</Eyebrow>
@@ -193,7 +193,7 @@ function CompanyInfo({ data }: { data: AboutPageData }) {
 	return (
 		<div
 			id="dane-firmy"
-			className="grid gap-6 rounded-[28px] border border-navy/10 bg-paper p-8 shadow-[0_8px_24px_rgba(15,45,92,0.06)] lg:grid-cols-[0.9fr_1.1fr] lg:gap-10 lg:p-10"
+			className="grid gap-6 rounded-lg border border-navy/10 bg-paper p-8 shadow-[0_8px_24px_rgba(15,45,92,0.06)] lg:grid-cols-[0.9fr_1.1fr] lg:gap-10 lg:p-10"
 		>
 			<div>
 				<Eyebrow>Dane firmy</Eyebrow>

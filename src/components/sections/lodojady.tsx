@@ -10,7 +10,7 @@ export function Lodojady() {
 		<section id="lodojady" className="py-15 pb-30" aria-labelledby="lodo-title">
 			<div className="container-page">
 				<div
-					className="relative grid grid-cols-[1.25fr_0.75fr] items-center gap-15 overflow-hidden rounded-[40px] bg-navy p-20 px-18 text-cream shadow-[0_30px_70px_-30px_rgba(15,45,92,0.28)] max-lg:grid-cols-1 max-lg:gap-5 max-lg:p-10 max-lg:px-10"
+					className="relative grid grid-cols-[1.25fr_0.75fr] items-center gap-15 overflow-hidden rounded-xl bg-navy p-20 px-18 text-cream shadow-deep max-lg:grid-cols-1 max-lg:gap-5 max-lg:p-10 max-lg:px-10"
 					style={{
 						background:
 							"radial-gradient(circle at 20% 20%, rgba(60,182,227,0.25), transparent 40%), radial-gradient(circle at 80% 80%, rgba(193,154,91,0.35), transparent 50%), var(--color-navy)",

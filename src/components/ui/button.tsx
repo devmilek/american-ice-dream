@@ -7,7 +7,7 @@ const buttonVariants = cva(
   [
     "inline-flex items-center gap-2.5 rounded-full font-semibold whitespace-nowrap",
     "transition-[transform,box-shadow,background-color,color] duration-300",
-    "ease-[cubic-bezier(0.22,1,0.36,1)] will-change-transform",
+    "ease-silk will-change-transform",
     "[&_svg]:h-[18px] [&_svg]:w-[18px] [&_svg]:transition-transform [&_svg]:duration-300",
     "hover:[&_svg]:translate-x-[3px]",
     "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky focus-visible:ring-offset-2 focus-visible:ring-offset-cream",
